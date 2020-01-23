@@ -1,26 +1,53 @@
-# {{ COURSE_NAME }}
+# Kubernetes essentials  
+
+Course duration – 3 days  
 
 ## Goals
-Place the goals of the course here to form one or more paragraphs.
+This course will prepare the trainees to understand kubernetes core concepts, including cluster architecture and components, identifying the role of each of them. 
 
 ## Objectives
-- Enumerate your learning objectives in a list
-- Elaborate as many as needed
+* Explain what kubernetes is 
+* Know the core concepts of kubernetes 
+* Understand different ways to expose a pod 
 
 ## Contents
-- List in a sequential order the contents of the course
-- Elaborate as many as needed
+* What is kubernetes? 
+* What problem solves? 
+* Kubernetes architecture 
+* Kubernetes resources 
+* How to create a Kubernetes resource 
+* Kubernetes workloads 
+* Kubernetes services 
+* Kubernetes ingresses 
+* Deploy an application 
+* Expose your application to the world  
 
 
 ## Learning materials
-- Start by gathering the materials needed to complete the learning objectives.
-- Add them here in a form of a list
-- You can paste the URL's with a short title for each item
+- https://kubernetes.io/docs/tutorials/kubernetes-basics/ 
+- https://kubernetes.io/docs/concepts/workloads/pods/  
+- https://kubernetes.io/docs/concepts/architecture/ 
+- https://kubernetes.io/docs/concepts/services-networking/service/  
 
 
 ## Course activities
-- [List course activities and link them](./01-activity-title.md)
+* [List course activities and link them](./01-activity-title.md)
+- Introduce the basic need of container orchestration 
+* To present the basic concepts of Kubernetes 
+* Describe kubernetes architecture 
+* Present kubernetes resources  
+* Basic workshop to deploy an application in kubernetes 
+* Present the services to expose applications in kubernetes 
+* Q&A’s 
 
 
 ## Collaborators
-- Place the name of reach collaborator and slack handle
+
+Name     |   Slack  | 
+---------|----------|
+ Javier Lizarraga   | @javier | 
+ Oscar Hernandez    | @oscar hernandez |
+ Gerardo Rosales    | @gera |
+
+
+
