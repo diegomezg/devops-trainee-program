@@ -3,7 +3,6 @@
 Course Duration - 4 days
 
 ## Goals
-This course will familiarize the trainee in Linux and learn how to use the commands, shell and tools to finally has the capacity to perform intermediate tasks and troubleshoot issues
 
 This course will familiarize the trainee with Linux and learn how to manage and maintining the Operating System, perform tasks, troubleshoot issues, install software, edit files, create users, modify permissions and more.
 
