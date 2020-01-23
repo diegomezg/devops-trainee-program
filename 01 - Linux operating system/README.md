@@ -3,7 +3,9 @@
 Course Duration - 4 days
 
 ## Goals
-This course has the objective to familiarize the trainee with Linux and learn how to use the commands, shell and tools to finally has the capacity to perform intermediate tasks and obviously troubleshoot problems in Linux
+This course will familiarize the trainee in Linux and learn how to use the commands, shell and tools to finally has the capacity to perform intermediate tasks and troubleshoot issues
+
+This course will familiarize the trainee with Linux and learn how to manage and maintining the Operating System, perform tasks, troubleshoot issues, install software, edit files, create users, modify permissions and more.
 
 ## Learning Objectives
 - The trainee going to have the knowledge to apply the basic/intermediate commands to work at a Linux Terminal
@@ -14,6 +16,7 @@ This course has the objective to familiarize the trainee with Linux and learn ho
 - Networking Fundamentals
 
 ## Contents
+- Introduction to Linux a brief history about the OS
 - VIM, what is and how to use
 - SSH/SCP and how to use in our every day
 - Linux Directories
@@ -41,6 +44,7 @@ This course has the objective to familiarize the trainee with Linux and learn ho
 - https://www.udemy.com/course/linux-academy-linux-operating-system-fundamentals/
 - https://www.edx.org/course/fundamentals-of-red-hat-enterprise-linux
 - https://www.edx.org/course/introduction-to-linux
+- https://www.oreilly.com/library/view/running-linux-third/156592469X/ch01s02.html
 
 
 
