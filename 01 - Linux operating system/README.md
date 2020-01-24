@@ -35,15 +35,16 @@ This course will familiarize the trainee with Linux and learn how to manage and 
 
 ## Learning materials
 - Create a free udemy account for your own use.
-- https://www.udemy.com/course/abc-of-vim/
-- https://www.udemy.com/course/vim-aumenta-tu-velocidad-de-desarrollo/
-- https://www.udemy.com/course/vim-essentials/
-- https://www.tutorialspoint.com/vim/vim_tutorial.pdf
-- https://www.udemy.com/course/linux-para-principiantes-1/
-- https://www.udemy.com/course/linux-academy-linux-operating-system-fundamentals/
-- https://www.edx.org/course/fundamentals-of-red-hat-enterprise-linux
-- https://www.edx.org/course/introduction-to-linux
-- https://www.oreilly.com/library/view/running-linux-third/156592469X/ch01s02.html
+- https://www.udemy.com/course/abc-of-vim/ - optional
+- https://www.udemy.com/course/vim-aumenta-tu-velocidad-de-desarrollo/ - optional
+- https://www.udemy.com/course/vim-essentials/ - optional
+- https://www.tutorialspoint.com/vim/vim_tutorial.pdf - optional
+- [SSH, The Secure Shell: The Definitive Guide](https://bit.ly/36ovypk). - for reference
+- https://www.udemy.com/course/linux-para-principiantes-1/ - optional
+- https://www.udemy.com/course/linux-academy-linux-operating-system-fundamentals/ - optional
+- https://www.edx.org/course/fundamentals-of-red-hat-enterprise-linux - mandatory
+- https://www.edx.org/course/introduction-to-linux - optional
+- https://www.oreilly.com/library/view/running-linux-third/156592469X/ch01s02.html - mandatory
 
 
 
