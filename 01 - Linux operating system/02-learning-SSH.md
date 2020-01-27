@@ -14,12 +14,9 @@ Create an MD file and document the following points:
 1. Config your own ssh using $USER/.ssh/config and make sure when you type server01 it connects to your coworker machine
 1. Document how to create an ssh key and how to copy the key into another server
 
-
 ### Expected deliverables
-1. The trainee will provide evidence from his/her environment that was complete all the activities. 
-
-
-
+- MD file with each activity question answered
+- Documentation of procedures, include images if needed
 
 ### Evaluation
 
