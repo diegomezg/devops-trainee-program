@@ -13,9 +13,6 @@
 - Show and explain the flow to bootstrap and to manage a node with chef server. 
 
 
-
-### Evaluation
-
 ### Evaluation
 
 | Metric name | Description | % Value |
