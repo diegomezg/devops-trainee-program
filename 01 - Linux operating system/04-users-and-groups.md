@@ -2,17 +2,18 @@
 # Working with Users and Groups and the root user in Linux
 
 ### Instructions
-- creating users in Linux
-- deleting users in Linux
-- modifying users in Linux
-- password for users in Linux
-- consulting users in Linux (/etc/passwd, id, w, who, finger)
-- how to create a group in Linux
-- adding users to groups
-- deleting users from groups
-- consulting groups in Linux
-- how to delete groups in Linux
-- working with root user, tips and tricks
+- Document the process to:
+  - Create a user in Linux
+  - Delete a user in Linux
+  - Modify a user in Linux
+  - Change user password
+- Describe the different methods to list users in Linux (/etc/passwd, id, w, who, finger)
+- Create a group in Linux called dou-devops
+- Add the users dou-YOUR_NAME to the previous group
+- Delete the user dou-YOUR_NAME users from the dou-devops group
+- Describe the different methods to consult groups in Linux
+- How can you delete groups in Linux?
+- Tell us the different method to use root privileges
 
 ### Expected deliverables
 - The trainee needs to have the practice learned in this class and resolve all his doubts.
