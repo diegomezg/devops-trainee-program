@@ -53,7 +53,7 @@ This course will familiarize the trainee with Linux and learn how to manage and 
 
 
 ## Course activities
-- [Learning Linux and VI](./01-learning-linux-vi.md).
+- [Learning VI](./01-learning-vi.md).
 - [SSH usage](./02-learning-ssh.md).
 - [Linux directory tree](./03-linux-directory-tree.md).
 - [Users and groups](./04-users-and-groups.md).
