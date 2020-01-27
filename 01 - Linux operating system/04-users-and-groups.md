@@ -2,7 +2,8 @@
 # Working with Users and Groups and the root user in Linux
 
 ### Instructions
-- Document the process to:
+Create an MD file and document the following points:
+- Describe the process to:
   - Create a user in Linux
   - Delete a user in Linux
   - Modify a user in Linux
@@ -16,8 +17,8 @@
 - Tell us the different method to use root privileges
 
 ### Expected deliverables
-- The trainee needs to have the practice learned in this class and resolve all his doubts.
-- The trainee will attend a workshop with a final activity
+- MD file with each activity question answered
+- Documentation of procedures, include images if needed
 
 
 
@@ -25,5 +26,13 @@
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
-| Metric 01   | Attend the all the sub-topics for this topic | %50 |
-| Metric 02   | upload evidence to the Linux section in the DOU repository | %50 |
+| Create user   | Document the process to create a user | 10% |
+| Delete user   | Document the process to delete a user | 10% |
+| Modify user   | Document the process to modify a user | 10% |
+| Change user   | Document the process to change a user | 10% |
+| List users   | Describe at least 5 methods to gather user data | 10% |
+| Create group   | A group called `dou-devops` was created and the steps were documented | 10% |
+| Add user to group   | The user `dou-YOUR_NAME` was added to `dou-devops` and the steps were documented | 10% |
+| List groups   | Describe at least 3 methods togather group data | 10% |
+| Delete groups   | Document the process to delete a group | 10% |
+| Root privileges   | Describe 2 methods to use root privileges | 10% |
