@@ -2,15 +2,17 @@
 # Learning SSH
 
 ### Instructions
-- A brief history about SSH and why i should learn SSH
-- Configuring the needed things for SSH
-- SCP
-- Configuring ssh daemon
-- SSH Customization for specific users
-- Tips and Tricks using ssh
-- SSH keys
-- Security for SSH
-- SSH workshop
+Answer the following questions:
+- Tell us a brief history about SSH and why I should learn SSH
+- Document the steps needed to configure an SSH server
+- Copy one of the files from the prevoius practice to one of your coworkers, document all the steps and paste screenshots as proofs
+- Customize the ssh dir using the configuration file at /etc/ssh/sshd_config and apply the following requirements:
+  - Change the default SSH port
+  - Disable access to root user through ssh
+  - Create a group to enhance ssh security using the AllowGroups flag and enable ssh access for a new user called letmein, document the process
+  - Create an entry banner that displays the text "Welcome stranger to DigitalOnUs" everytime a user ssh into your VM
+- Config your own ssh using $USER/.ssh/config and make sure when you type server01 it connects to your coworker machine
+- Document how to create an ssh key and how to copy the key into another server
 
 
 ### Expected deliverables
