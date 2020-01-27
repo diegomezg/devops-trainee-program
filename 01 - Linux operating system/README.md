@@ -7,12 +7,15 @@ Course Duration - 4 days
 This course will familiarize the trainee with Linux and learn how to manage and maintining the Operating System, perform tasks, troubleshoot issues, install software, edit files, create users, modify permissions and more.
 
 ## Learning Objectives
-- The trainee going to have the knowledge to apply the basic/intermediate commands to work at a Linux Terminal
-- Get knowledge to use VI as a terminal editor
-- Get knowledgte to check process and how to manage them
-- Get knowledge to use the a package manager (YUM and RPM)
-- Security in Linux
-- Networking Fundamentals
+- Operate the Linux command line interface
+- Utilize VI as a text editor
+- Examine processes and manage them
+- Use the package manager (YUM and RPM)
+- Modify files permissions and attributes
+- Customize ssh server settings
+- Evaluate network ports availability
+- Discover and customize network interfaces attributes
+- Utilize traceroute to troubleshoot network issues
 
 ## Contents
 - Introduction to Linux a brief history about the OS
@@ -20,16 +23,16 @@ This course will familiarize the trainee with Linux and learn how to manage and 
 - SSH/SCP and how to use in our every day
 - Linux Directories
 - Users and Groups
-- the root user
-- permissions and owners
+- The root user
+- Permissions and owners
 - Process PID/PPID, Daemons and Zombies
-- soft links and hard links
+- Soft links and hard links
 - PIPES and GREP/EGREP
 - RPM
 - YUM/DNF
-- systemctl and service
-- basic commands
-- compress files (tar, gzip, bzip2)
+- Systemctl and service
+- Basic commands
+- Compress files (tar, gzip, bzip2)
 
 
 
@@ -50,20 +53,18 @@ This course will familiarize the trainee with Linux and learn how to manage and 
 
 
 ## Course activities
-- [List course activities and link them](./01-activity-title.md).
-- Every aspect of this training will have a workshop.
-- vim training.
-- ssh - learn how to use and configure in your linux environment.
-- Learn about the Filesystem Hierarchy Standard (FHS) and the structure of file systems on Linux.
-- Learn how to use <code>chmod</code> and <code>chown</code> to manage users and groups.
-- working with root and the good practice.
-- Learning how to manipulate processes in Linux (PPID, PID, Daemons, Zombies).
-- Learning how to use pipes and grep together.
-- working with rpm
-- working with yum or dnf
-- learning about systemctl and service commands
-- learning the basic commands in Linux
-- How to compress files in Linux with tar, gzip and bzip2.
+- [Learning Linux and VI](./01-learning-linux-vi.md).
+- [SSH usage](./02-learning-ssh.md).
+- [Linux directory tree](./03-linux-directory-tree.md).
+- [Users and groups](./04-users-and-groups.md).
+- [Chmod and chown](./05-chmod-and-chown.md).
+- 06-process-soft-and-hard-Links.md
+- 07-pipe-grep.md
+- 08-rpm.md
+- 09-yum.md
+- 10-systemctl.md
+- 11-commands.md
+- 12-compress-files.md
 
 ## Collaborators
 Name     |   Slack  | EMAIL |
