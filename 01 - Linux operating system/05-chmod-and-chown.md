@@ -2,13 +2,13 @@
 # Working with permissions and owners in Linux
 
 ### Instructions
-- Understanding the permissions in Linux
-- Adding specific permissions to files and directories in Linux
-- Learning different ways to assign and modifying permissions in Linux
-- permissions for users, groups and others
-- Understanding the owners in Linux
-- User owner and Group owner
-- modifying the ownership
+- Tell us what you learned about Linux permissions
+- Create a file called January with the  specific permissions to files and directories in Linux
+  - January - read/write for user and only read for groups and the others only execution
+  - February ....
+  - 
+- Explain in detail the different methods to change file/directory permissions in Linux (numbers/ugo)
+- Create a new user and change the owner of the previous files to this user
 
 ### Expected deliverables
 - The trainee needs to have the practice learned in this class and resolve all his doubts.
