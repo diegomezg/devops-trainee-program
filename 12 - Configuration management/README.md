@@ -13,34 +13,30 @@ This course will provide you with the experience necessary to be able to deploy 
 - Manage multiple nodes with Chef Server 
 
 ## Contents
-- List in a sequential order the contents of the course
-- Elaborate as many as needed
-- Course Introduction 
-
 - Chef Basic Terminology  
--- High level concepts 
---- Infrastructure as Code 
---- Desired State Configuration 
--- High level tools 
---- Chef Server 
---- ChefDK 
---- Bootstrapping a Node with Knife and chef-client 
---- Supermarket 
---- Test Kitchen 
---- Troubleshooting Network issues 
--- Lower level tools 
---- Cookbooks 
---- Recipes 
---- Resources 
---- Nodes 
---- Run Lists 
---- Roles 
---- Environments 
---- Attributes 
---- Data bags 
---- Search 
---- Notifications 
---- Conditionals 
+    - High level concepts 
+        - Infrastructure as Code 
+        - Desired State Configuration 
+    - High level tools 
+        - Chef Server 
+        - ChefDK 
+        - Bootstrapping a Node with Knife and chef-client 
+        - Supermarket 
+        - Test Kitchen 
+        - Troubleshooting Network issues 
+    - Lower level tools 
+        - Cookbooks 
+        - Recipes 
+        - Resources 
+        - Nodes    
+        - Run Lists 
+        - Roles 
+        - Environments 
+        - Attributes 
+        - Data bags 
+        - Search 
+        - Notifications 
+        - Conditionals 
 
 
 ## Learning materials
