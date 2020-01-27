@@ -2,11 +2,11 @@
 # Learning the Linux structure for the directories
 
 ### Instructions
-- In your own words describe the purpose of each directory in a Linux system
+- Follow along the directory workshop and explain in your own words the purpose of each directory
 
 ### Expected deliverables
-- The trainee needs to have personal notes about this topic and understand what is a directory
-- [Support Material](https://bit.ly/37BdIkk).
+- MD file with each activity question answered
+- Documentation of procedures, include images if needed
 
 
 
@@ -14,4 +14,4 @@
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
-| Metric 01   | Attend the all the sub-topics for this topic | %100 |
+| Linux directory structure   | Document in your own words the purpose of each Linux directory | 100% |
