@@ -2,7 +2,7 @@
 # Learning the Linux structure for the directories
 
 ### Instructions
-- Learn what is and what kind of things has every directory in Linux
+- In your own words describe the purpose of each directory in a Linux system
 
 ### Expected deliverables
 - The trainee needs to have personal notes about this topic and understand what is a directory
