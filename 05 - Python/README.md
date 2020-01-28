@@ -1,26 +1,43 @@
-# {{ COURSE_NAME }}
+# Python 3+
 
 ## Goals
-Place the goals of the course here to form one or more paragraphs.
+This course provides a general introduction to modern Python (3+). To get a grasp for procedural, functional and object oriented concepts in the most beginner friendly programming language. 
 
-## Objectives
-- Enumerate your learning objectives in a list
-- Elaborate as many as needed
+At the end of the course the student will be able to read/write python modules of basic and intermediate size. 
+
+## Learning Objectives
+- Understand the python concepts 
+- Accelerate the reading and writing of python modules 
+- Implement unit testing to ensure your code health 
 
 ## Contents
-- List in a sequential order the contents of the course
-- Elaborate as many as needed
+- Python Environment (Virtualenv)
+- Built-in types (Tuples, Lists, Dictionaries) 
+- Seudo-Functional Python: Comprehesion lists with Map, Reduce, Filter, Yield 
+- Decorators and lambdas  
+- Object Oriented Python: Mutable, Inmutable, Classes 
+- Handling Exceptions 
+- Concurrent Python: Async, wait, popen 
+- Standard Library overview (os, sys)  
+- Unitesting 
 
-
-## Learning materials
-- Start by gathering the materials needed to complete the learning objectives.
-- Add them here in a form of a list
-- You can paste the URL's with a short title for each item
-
+## Learning Materials
+- [Python standard library reference](https://docs.python.org/3/library/)
+- [Python Package Index (PIP)](https://pypi.org/)
+- [Python official tutorial](https://docs.python.org/3/tutorial/index.html)
+- [For the book lovers take a look to Fluent Python](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008)
 
 ## Course activities
-- [List course activities and link them](./01-activity-title.md)
-
+1- Installing python and creating a virtual env
+2- Playing with data types list vs dicts
+3- Hacking your system (monitoring a folder)
+4- Async parallel upload 
 
 ## Collaborators
-- Place the name of reach collaborator and slack handle
+Name     |   Slack  | EMAIL |
+---------|----------|----------|
+ Andrea Gomez   | @ad | andrea.gomez@digitalonus.com |
+ Alan Acosta    | @alanacosta | alan.acosta@digitalonus.com |
+ Antonio Cabrera    | @thetonymaster | antonio.cabrera@digitalonus.com |
+ Angel Figueroa    | @leofigy | angel.figueroa@digitalonus.com |
+
