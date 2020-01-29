@@ -1,4 +1,4 @@
-# {{ COURSE_NAME }}
+# {{ Packaging applications with Helm for Kubernetes }}
 
 ## Goals
 This Course pretends to teach the fundamentals of package managing in Kubernetes clusters, specifically with helm, the idea is to cover the basic concepts and then walk through the process of creating modifying launching and updating helm charts/releases.
