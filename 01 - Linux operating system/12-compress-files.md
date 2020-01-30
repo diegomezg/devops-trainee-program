@@ -2,16 +2,16 @@
 # Compress files in Linux
 
 ### Instructions
-- TAR
-- GZIP
-- BZIP2
-- tar and gzip
-- tar and bzip2
-- tips and tricks
+Present an example on how to extract/compress with the following formats:
+- tar
+- gz
+- bz2
+- tar.gz
+- tar.bz2
 
 ### Expected deliverables
-- The trainee needs to have the practice learned in this class and resolve all his doubts.
-- The trainee will attend a workshop with a final activity using all the knowledge acquired
+- MD file with each activity question answered
+- Documentation of procedures, include images if needed
 
 
 
@@ -19,5 +19,8 @@
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
-| Metric 01   | Attend the all the sub-topics for this topic | %50 |
-| Metric 02   | upload evidence to the Linux section in the DOU repository | %50 |
+| tar   | Example to extract/compress was given | 20% |
+| gz   | Example to extract/compress was given | 20% |
+| bz2   | Example to extract/compress was given | 20% |
+| tar.gz   | Example to extract/compress was given | 20% |
+| tar.bz2   | Example to extract/compress was given | 20% |
