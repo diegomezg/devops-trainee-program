@@ -1,26 +1,58 @@
-# {{ COURSE_NAME }}
+# Introduction to DevOps
 
-## Goals
-Place the goals of the course here to form one or more paragraphs.
+## Goals of the course 
+In this course you'll learn how to introduce common DevOps practices into your organization. First, you'll learn the fundamental principles behind DevOps, and quickly see how to put those in action. Next, you’ll discover how leading companies approach team dynamics, automating infrastructure, and break down organizational silos.  When you’re finished with this course, you'll have a foundational understanding of the core practices of DevOps teams, and the reason behind them. 
 
-## Objectives
-- Enumerate your learning objectives in a list
-- Elaborate as many as needed
+## Learning objectives 
+* Describe what DevOps is and why it’s important. 
+* Describe the importance of continuous testing and continuous security. 
+* Identify gaps and delays inflow. 
+* Improve the process of exploring customer needs. 
+* Improve the process of developing, building, and integrating continuously. 
+* Improve the process of deployment to staging and production environments continuously. 
+* Improve the release process. 
+* Recognize the problem to be solve. 
 
 ## Contents
-- List in a sequential order the contents of the course
-- Elaborate as many as needed
+1. How to define DevOps
+2. Describe its Value, History, Best Practices and Metrics
+3. Agile Development Practices Apply to DevOps 
+4. The Importance of Source Control and Automation
+5. What Developers and Operations team can learn from each other 
+6. Key concepts and benefits of
 
+	a. Continuous Integration
+	
+	b. Continuous Testing
+	
+	c. Continuous Delivery
+	
+1. Types of testing
+2. How to define a build pipeline
+3. Key concepts and benefits of
 
-## Learning materials
-- Start by gathering the materials needed to complete the learning objectives.
-- Add them here in a form of a list
-- You can paste the URL's with a short title for each item
+   a. Release Management
+   
+   b. Configuration Management
+   
+1.  Monitoring 
 
+## Learning materials 
 
-## Course activities
-- [List course activities and link them](./01-activity-title.md)
+Course                     | URL
+---------------------------| -------------------------------------------------------
+Understanding DevOps       | https://www.pluralsight.com/paths/understanding-devops 
+DevOps: The Big Picture    | https://www.pluralsight.com/courses/devops-big-picture 
+DevOps Essentials          | https://linuxacademy.com/course/devops-essentials-2018/
+DevOps Monitoring Deep Dive| https://linuxacademy.com/course/dev-ops-monitoring-deep-dive/ 
 
+## Course activities 
+- [01 - What DevOps means to you?](./01-what-devops-means.md)
+- [02 - Learning DevOps Functions and Tools](./02-learning-devops-tools.md)
 
 ## Collaborators
-- Place the name of reach collaborator and slack handle
+Name     |   Slack  | Email |
+---------|----------|----------|
+Monserrat Sedeno    | @Monse | monserrat.sedeno@digitalonus.com |
+Francisco Rodriguez | @panch | francisco.rodriguez@digitalonus.com |
+
