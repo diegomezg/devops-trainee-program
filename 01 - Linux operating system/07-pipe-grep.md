@@ -2,15 +2,16 @@
 # Working with PIPES and grep in Linux
 
 ### Instructions
-- Understanding what is a PIPE in Linux
-- how to works a PIPE
-- working with PIPE and grep in Linux
-- working with PIPE and egrep in Linux
-- working with PIPE and another commands in Linux
+Create an MD file and document the following points:
+- What is a pipe and how does it work?
+- Explain how grep works and present an example
+- Explain how egrep works and present an example
+- Present an example where you combine a pipe with grep and other command
+- Present an example where you combine a pipe with egrep and other command
 
 ### Expected deliverables
-- The trainee needs to have the practice learned in this class and resolve all his doubts.
-- The trainee will attend a workshop with a final activity using all the knowledge acquired
+- MD file with each activity question answered
+- Documentation of procedures, include images if needed
 
 
 
@@ -18,4 +19,8 @@
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
-| Metric 01   | Attend the all the sub-topics for this topic | %100 |
+| Pipe   | Pipe info and basic functioning was explained | 20% |
+| Grep   | Grep info and example was given | 20% |
+| Egrep   | Egrep info and example was given | 20% |
+| Pipe & grep   | Example of pipe and grep was given | 20% |
+| Pipe & egrep   | Example of pipe and grep was given | 20% |
