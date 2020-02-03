@@ -4,7 +4,7 @@
 In this course you'll learn how to introduce common DevOps practices into your organization. First, you'll learn the fundamental principles behind DevOps, and quickly see how to put those in action. Next, you’ll discover how leading companies approach team dynamics, automating infrastructure, and break down organizational silos.  When you’re finished with this course, you'll have a foundational understanding of the core practices of DevOps teams, and the reason behind them. 
 
 ## Learning objectives 
-* Describe what DevOps is and why it’s important. 
+* Explain what DevOps is and its importance. 
 * Describe the importance of continuous testing and continuous security. 
 * Identify gaps and delays inflow. 
 * Improve the process of exploring customer needs. 
