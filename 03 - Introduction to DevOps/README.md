@@ -49,6 +49,7 @@ DevOps Monitoring Deep Dive| https://linuxacademy.com/course/dev-ops-monitoring-
 ## Course activities 
 - [01 - What DevOps means to you?](./01-what-devops-means.md)
 - [02 - Learning DevOps Functions and Tools](./02-learning-devops-tools.md)
+- [03 - Learning DevOps Concepts](./03-learning-devops-concepts.md)
 
 ## Collaborators
 Name     |   Slack  | Email |
