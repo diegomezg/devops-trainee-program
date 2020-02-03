@@ -11,7 +11,7 @@ In this course you'll learn how to introduce common DevOps practices into your o
 * Improve the process of developing, building, and integrating continuously. 
 * Improve the process of deployment to staging and production environments continuously. 
 * Improve the release process. 
-* Recognize the problem to be solve. 
+* Recognize the problem to be solved. 
 
 ## Contents
 1. How to define DevOps
