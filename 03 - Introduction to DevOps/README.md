@@ -6,7 +6,7 @@ In this course you'll learn how to introduce common DevOps practices into your o
 ## Learning objectives 
 * Explain what DevOps is and its importance. 
 * Breakdown the importance of continuous testing and continuous security. 
-* Identify gaps and delays inflow. 
+* Identify gaps and delays in a workflow. 
 * Improve the process of exploring customer needs. 
 * Improve the process of developing, building, and integrating continuously. 
 * Improve the process of deployment to staging and production environments continuously. 
