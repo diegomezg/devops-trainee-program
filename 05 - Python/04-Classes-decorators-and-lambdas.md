@@ -1,7 +1,8 @@
 # Python 3
-# Decorators and lambdas
+# Classes, decorators and lambdas
 
 ### Objective
+To learn about how to create a class in python and how to use them across a functional module or code.
 To learn anonymous function (lambda). Lambdas are handy for short-usage for generators, or filters.
 Most of us don't create libraries, we use them. But the decorator in python provides an easy way
 to end-users to get and apply external libraries i.e Flask, Qt and other frameworks are based on 
