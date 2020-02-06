@@ -12,10 +12,9 @@ At the end of the course the student will be able to read/write python modules o
 
 ## Contents
 - Python Environment (Virtualenv)
-- Built-in types (Tuples, Lists, Dictionaries) 
+- Python objects (Mutable Inmutable) and Built-in types (Tuples, Lists, Dictionaries)
 - Seudo-Functional Python: Comprehesion lists with Map, Reduce, Filter, Yield 
-- Decorators and lambdas  
-- Object Oriented Python: Mutable, Inmutable, Classes 
+- Classes, decorators and lambdas
 - Handling Exceptions 
 - Concurrent Python: Async, wait, popen 
 - Standard Library overview (os, sys)  
@@ -26,6 +25,7 @@ At the end of the course the student will be able to read/write python modules o
 - [Python Package Index (PIP)](https://pypi.org/)
 - [Python official tutorial](https://docs.python.org/3/tutorial/index.html)
 - [For the book lovers take a look to Fluent Python](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008)
+- [Built-in types](https://www.youtube.com/watch?v=lyDLAutA88s&t=472s)
 
 ## Course activities
 1- Installing python and creating a virtual env
