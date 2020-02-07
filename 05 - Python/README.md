@@ -1,7 +1,7 @@
 # Python 3+
 
 ## Goals
-This course provides a general introduction to modern Python (3+). To get a grasp for procedural, functional and object oriented concepts in the most beginner friendly programming language. 
+This course provides a general introduction to modern Python (3+) by grasping procedural, functional and object oriented concepts in one of the most beginner friendly programming language. 
 
 At the end of the course the student will be able to read/write python modules of basic and intermediate size. 
 
