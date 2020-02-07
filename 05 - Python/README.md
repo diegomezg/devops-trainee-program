@@ -28,14 +28,14 @@ At the end of the course the trainee will be able to read/write python modules o
 - [Built-in types](https://www.youtube.com/watch?v=lyDLAutA88s&t=472s)
 
 ## Course activities
-- 1- [01-Virtualenv](./01- Virtualenv.md)
-- 2- [02-Python objects and built-in types](./02-Python-Objects-And-Built-In-Types.md)
-- 3- [03-Seudo-functional python](./03-Seudo-Functional-Python.md)
-- 4- [04-Classes, decorators and lambdas](./04-Classes-decorators-and-lambdas.md)
-- 5- [05-Handling exceptions](./05-Handling-Exceptions.md)
-- 6- [06-Concurrent python](./06-concurrent-python.md)
-- 7- [07-Standard library](./07-standard-library.md)
-- 8- [08-Unittesting](./08-Unittesting.md)
+- 1- [Virtualenv](./01- Virtualenv.md)
+- 2- [Python objects and built-in types](./02-Python-Objects-And-Built-In-Types.md)
+- 3- [Seudo-functional python](./03-Seudo-Functional-Python.md)
+- 4- [Classes, decorators and lambdas](./04-Classes-decorators-and-lambdas.md)
+- 5- [Handling exceptions](./05-Handling-Exceptions.md)
+- 6- [Concurrent python](./06-concurrent-python.md)
+- 7- [Standard library](./07-standard-library.md)
+- 8- [Unittesting](./08-Unittesting.md)
 
 ## Collaborators
 Name     |   Slack  | EMAIL |
