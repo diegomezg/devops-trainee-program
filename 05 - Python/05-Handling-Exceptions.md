@@ -20,6 +20,7 @@ Create a dummy repo or md file explaining and showing the follow:
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
-| Completed exercies | A description that everyone can understand with a functional example | 60% |
-| Explanation of when to use try | A description that everyone can understand | 40% |
+| "DOU_Error" custom class | A class in python that can be used for raise an error inside a function | 20% |
+| Raise error function | A working function that consumes custom class for error in word character | 40% | 
+| Explanation of when to use try | A description that everyone can understand on when to use try and when not use it| 40% |
 
