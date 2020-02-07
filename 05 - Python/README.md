@@ -6,7 +6,7 @@ This course provides a general introduction to modern Python (3+) by grasping pr
 At the end of the course the trainee will be able to read/write python modules of basic and intermediate complexity. 
 
 ## Learning Objectives
-- Understand the python concepts 
+- Explain the most used python concepts
 - Accelerate the reading and writing of python modules 
 - Implement unit testing to ensure your code health 
 
