@@ -6,7 +6,7 @@ Understand the difference between an object and a variable in python as well as 
 
 ### Instructions
 Create an MD file to explain and illustrate the following points:
-- An easy way to understand difference between objects and variables (example in console is a must).
+- Explain an easy way to understand the difference between objects and variables (example in console is a must).
 - 1 example of, at least 6 different Built-in types in python.
 - Show with an example how can you determine that an object is mutable and when an object it is not (console is a must).
 - Apply and explain at least 3 different attributes of the 6 different Built-in types mentioned below.
