@@ -24,6 +24,10 @@ Create a dummy repo or md file explaining and showing the follow:
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
-| Completed exercies | A description that everyone can understand with a functional example | 75% |
+| Function with loops | A working function using loops as per as described in the instructions | 5% |
+| List of comprenhention | A working list of comprenhention as per as described in the instructions | 20% |
+| Generator | A consumable generator as per as described in the instructions | 10% |
+| Lambda + filter |A working function with lambda + filter as per as described that generates a list | 20% |
+| Map | A working function that creates a new list as per as described in the instructions | 20% |
 | Explanation of reduce | A description that everyone can understand | 25% |
 
