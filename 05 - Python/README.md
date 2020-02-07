@@ -3,7 +3,7 @@
 ## Goals
 This course provides a general introduction to modern Python (3+) by grasping procedural, functional and object oriented concepts in one of the most beginner friendly programming language. 
 
-At the end of the course the student will be able to read/write python modules of basic and intermediate size. 
+At the end of the course the trainee will be able to read/write python modules of basic and intermediate complexity. 
 
 ## Learning Objectives
 - Understand the python concepts 
