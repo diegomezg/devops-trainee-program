@@ -106,7 +106,7 @@ This course focuses on laying down the basics and presenting the trainee built-i
 - [05 arithmetic operations](./05-arithmetic-operations.md)
 - [06 checking files](./06-checking-files.md)
 - [07 checking users](./07-activity-checking-users.md)
-
+- [08 remote install](./08-remote-install.md)
 ## Collaborators 
 
 | Collaborator  | Slack  |
