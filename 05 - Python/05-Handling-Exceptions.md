@@ -1,5 +1,5 @@
  Python 3
-# Handling Exceptions
+## Handling Exceptions
 
 ### Objective
 Be able to debug an easy error in python using handling exceptions.
