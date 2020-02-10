@@ -1,5 +1,5 @@
 # Python 3
-# Seudo-Functional Python: Creation of list of comprehension and use of: Map, Reduce, Filter. And understand what a generator is and how to create one (yield)
+## Pseudo-functional python
 
 ### Objective
 Be able to create a comprehension object in python and a generator. Also understand the difference between Map, reduce, filter an apply them to a real function.
