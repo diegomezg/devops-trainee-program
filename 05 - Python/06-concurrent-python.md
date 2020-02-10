@@ -1,5 +1,5 @@
 # Python 3
-# Concurrent python
+## Concurrent python
 
 ### Objective
 Context: in python 2 the way to go because the issue with the Global Interpreter Lock (GIL)
