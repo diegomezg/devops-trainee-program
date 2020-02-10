@@ -2,7 +2,7 @@
 # Python objects (Mutable Inmutable) and Built-in types (Tuples, Lists, Dictionaries)
 
 ### Objective
-Understand the difference between an object and a variable in python as well as some of themost common objects in python and start working with common Built-in types.
+Understand the difference between an object and a variable in python, as well as some of the most common objects and start working with common Built-in types.
 
 ### Instructions
 Create an MD file to explain and illustrate the following points:
