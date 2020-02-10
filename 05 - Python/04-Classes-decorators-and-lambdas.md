@@ -1,5 +1,5 @@
 # Python 3
-# Classes, decorators and lambdas
+## Classes, decorators and lambdas
 
 ### Objective
 To learn about how to create a class in python and how to use them across a functional module or code.
