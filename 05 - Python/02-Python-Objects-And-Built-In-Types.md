@@ -1,5 +1,5 @@
 # Python 3
-# Python objects (Mutable Inmutable) and Built-in types (Tuples, Lists, Dictionaries)
+## Python objects (mutable/inmutable) and built-in types (tuples, lists, dictionaries)
 
 ### Objective
 Understand the difference between an object and a variable in python, as well as some of the most common objects and start working with common Built-in types.
