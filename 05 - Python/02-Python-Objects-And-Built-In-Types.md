@@ -13,7 +13,7 @@ Create an MD file to explain and illustrate the following points:
 
 ### Expected deliverables
 - MD file with each activity question answered
-- eplanation to all the class using command line and images if needed
+- An explanation for all the class using command line and images if needed
 
 ### Evaluation
 
