@@ -1,26 +1,56 @@
-# {{ COURSE_NAME }}
+# Jenkins & Pipelines Construction with Code
 
 ## Goals
-Place the goals of the course here to form one or more paragraphs.
+Trainee will learn the structure of Declarative Pipeline, how to control the flow of execution, how to save artifacts of the build, and get practice using some of the features that give fit and finish to your Pipeline.
 
 ## Objectives
-- Enumerate your learning objectives in a list
-- Elaborate as many as needed
+- Understand the CI/CD concepts and Build Pipelines. 
+- Get an insight into all the fundamentals about Jenkins and its setup. 
+- Understanding Jenkins GUI. 
+- Configure and build basic Tools/Plugins. 
+- Use Jenkins to set up Build Pipelines. 
+- Learn to integrate builds with tools like Java, GitHub, Maven and Tomcat. 
+- Understand the difference between scripted and declarative pipelines. 
+- Understand the structure of a Declarative Pipeline, including the role of the stage, step, agent, and post sections
+- The use of Groovy language to construct a pipeline. 
 
 ## Contents
-- List in a sequential order the contents of the course
-- Elaborate as many as needed
+1. Introduction
+	
+	a. What’s Jenkins
+	
+	b. Features, Installation
+	
+   c.  Initial Configuration
+   
+   d.  Plugins Installation 
+   
+2. Creation of a Job
+3. Pipeline construction
+4. Continuous Integration
+5. Creating a Jenkins Maven 2/3 Project
+6. Configuring a GitHub Web Hook
+7. Use of jenkins views
+8. Create pipelines with Jenkinsfiles (Declarative)
+9. Multibranching pipelines
 
 
-## Learning materials
-- Start by gathering the materials needed to complete the learning objectives.
-- Add them here in a form of a list
-- You can paste the URL's with a short title for each item
+### Learning materials 
+
+Course                           | URL
+---------------------------------| -----------------------------------------------
+Getting started with Pipeline    | https://jenkins.io/doc/book/pipeline/ 
+Jenkins Pipeline - Fundamentals  | https://standard.cbu.cloudbees.com/cloudbees-university-jenkins-pipeline-fundamentals 
+Jenkins Quick Start              | https://linuxacademy.com/cp/modules/view/id/348?redirect_uri=https://app.linuxacademy.com/search?query=jenkins
 
 
-## Course activities
-- [List course activities and link them](./01-activity-title.md)
+## Course activities 
+- [01 - Building a Jenkins Pipeline](./01-building-jenkins-pipeline.md)
 
 
 ## Collaborators
-- Place the name of reach collaborator and slack handle
+Name     |   Slack  | Email |
+---------|----------|----------|
+Monserrat Sedeno    | @Monse | monserrat.sedeno@digitalonus.com |
+Daniel Benson | @Daniel Benson  | daniel.benson@digitalonus.com |
+Rigel Reyes     | @Rigel Reyes | rigel.reyes@digitalonus.com |

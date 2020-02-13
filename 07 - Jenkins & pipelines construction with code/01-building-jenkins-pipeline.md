@@ -1,9 +1,10 @@
-# {{ COURSE_NAME }}
-# Activity title
+# Jenkins & Pipelines Construction with Code
+# Building a Jenkins Pipeline
 
 ### Instructions
-- Enumerate your learning objectives in a list
-- Elaborate as many as needed
+- Create a new Multibranch Pipeline project in Jenkins
+- Fork this project in GitHub: https://github.com/linuxacademy/cicd-pipeline-train-schedule-pipelines
+- 
 
 
 
