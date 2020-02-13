@@ -1,8 +1,9 @@
-## 04 - Docker Compose
+# Docker
+## 05 - Docker compose
 
-Use Docker Compose to start python Flask app and Nginx at same time. 
+Use Docker compose to start python Flask app and Nginx at same time.
 
-##### Instructions
+### Instructions
 
 > PreRequisites
 >
@@ -13,14 +14,14 @@ Use Docker Compose to start python Flask app and Nginx at same time.
 1. Create a new file named ***flask-example.py***
     ```
         from flask import Flask
-        
+
         app = Flask(__name__)
-        
+
         @app.route("/")
         def hello():
             return "Hello World!"
-        
-        
+
+
         if __name__ == "__main__":
             app.run('0.0.0.0')
     ```
@@ -32,7 +33,7 @@ Use Docker Compose to start python Flask app and Nginx at same time.
     COPY . .
     CMD [ "python", "./flask-example.py" ]
     ```
-     
+
 3. Create a new file named ***docker-compose.yml***
    ```
     version: '3'
@@ -55,14 +56,14 @@ Use Docker Compose to start python Flask app and Nginx at same time.
    ```
     docker-compose up --build -d
     ```
-   
+
 5.  Display Images:
-    
+
     ```
     docker-compose images
     ```
 5.  Display current running containers:
-    
+
     ```
     docker ps -a
     docker-compose ps
@@ -72,7 +73,7 @@ Use Docker Compose to start python Flask app and Nginx at same time.
 - Explain the docker compose file and the commands/directives used in this example
 - Investigate and explain what is the use of --scale option
 
-##### Expected deliverable 
+### Expected deliverable
 
 Two containers running using docker compose:
 
@@ -87,7 +88,7 @@ root_web_1                nginx -g daemon off;           Up      0.0.0.0:80->80/
 - MD file with each activity question answered
 - Documentation of procedures, include images if needed
 
-##### Measuring instrument 
+### Measuring instrument 
 
 
 | Metric  |  Description | Value  |
@@ -95,5 +96,3 @@ root_web_1                nginx -g daemon off;           Up      0.0.0.0:80->80/
 |  Docker Compose Concepts | Mentioned the benefits to use docker compose | 40%  |
 |  Use of docker compose commands | Explained˜ the docker compose file and the commands/directives used in this example  |  30% |
 |  Use of docker compose commands | Investigated and explain what is the use of --scale option  |  30% |
-
-
