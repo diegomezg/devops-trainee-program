@@ -1,4 +1,4 @@
-# DOCKER
+# Docker
 
 ## Goals
 This training is an introduction to the containers technology, using a popular
@@ -41,7 +41,7 @@ basic introduction to Docker concepts and use cases.
 - [01 - Pull Nginx Image](./Activities/01-Pull-Image.md)
 - [02 - Create a Nginx Container](./Activities/02-Nginx-Container.md)
 - [03 - Docker File](./Activities/03-DockerFile.md)
-- [04 - Docker File](./Activities/04-DockerFile2.md)
+- [04 - Docker File 2](./Activities/04-Dockerfile2.md)
 - [05 - Docker Compose](./Activities/05-DockerCompose.md)
 
 ## Collaborators
