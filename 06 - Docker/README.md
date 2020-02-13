@@ -2,7 +2,7 @@
 
 ## Goals
 This training is an introduction to the containers technology, using a popular
-container platform named Docker, the plan has been created to provide a 
+container platform named Docker, the plan has been created to provide a
 basic introduction to Docker concepts and use cases.
 
 ## Objectives
@@ -41,7 +41,8 @@ basic introduction to Docker concepts and use cases.
 - [01 - Pull Nginx Image](./Activities/01-Pull-Image.md)
 - [02 - Create a Nginx Container](./Activities/02-Nginx-Container.md)
 - [03 - Docker File](./Activities/03-DockerFile.md)
-- [04 - Docker Compose](./Activities/04-DockerCompose.md)
+- [04 - Docker File](./Activities/04-DockerFile2.md)
+- [05 - Docker Compose](./Activities/05-DockerCompose.md)
 
 ## Collaborators
 | Collaborator       | e-mail                           |
@@ -50,4 +51,3 @@ basic introduction to Docker concepts and use cases.
 | Gonzalo Lopez      |gonzalo.lopez@digitalonus.com     |
 | Eduardo Manrique   |eduardo.manrique@digitalonus.com  |
 | Juan Francisco Gil |francisco.gil@digitalonus.com     |
-
