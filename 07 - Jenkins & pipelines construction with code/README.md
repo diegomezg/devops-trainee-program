@@ -7,7 +7,7 @@ Trainee will learn the structure of Declarative Pipeline, how to control the flo
 - Explain CI/CD concepts. 
 - Build pipelines.
 - Relate to the fundamentals of Jenkins and its setup. 
-- Understanding Jenkins GUI. 
+- Manipulate Jenkins GUI. 
 - Configure and build basic Tools/Plugins. 
 - Use Jenkins to set up Build Pipelines. 
 - Learn to integrate builds with tools like Java, GitHub, Maven and Tomcat. 
