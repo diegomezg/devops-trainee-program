@@ -11,7 +11,7 @@ Trainee will learn the structure of Declarative Pipeline, how to control the flo
 - Configure and build basic Tools/Plugins. 
 - Use Jenkins to set up Build Pipelines. 
 - Integrate builds tools such as Gradle, GitHub, Maven and Tomcat. 
-- Understand the difference between scripted and declarative pipelines. 
+- Identify the differences between scripted and declarative pipelines. 
 - Understand the structure of a Declarative Pipeline, including the role of the stage, step, agent, and post sections
 - The use of Groovy language to construct a pipeline. 
 
