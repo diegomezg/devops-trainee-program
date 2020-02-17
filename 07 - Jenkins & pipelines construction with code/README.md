@@ -45,7 +45,9 @@ Jenkins Quick Start              | https://linuxacademy.com/cp/modules/view/id/3
 
 
 ## Course activities 
-- [01 - Building a Jenkins Pipeline](./01-building-jenkins-pipeline.md)
+- [01 - Downloading and running Jenkins in Docker](./01-running-jenkins-in-docker.md)
+- [02 - Building a Jenkins Pipeline](./02-building-jenkins-pipeline.md)
+- [03 - Build CI/CD pipeline with Jenkins and Gradle](./03-build-ci-cd-pipeline-gradle.md)
 
 
 ## Collaborators
