@@ -43,6 +43,8 @@ basic introduction to Docker concepts and use cases.
 - [03 - Docker File](./Activities/03-DockerFile.md)
 - [04 - Docker File 2](./Activities/04-Dockerfile2.md)
 - [05 - Docker Compose](./Activities/05-DockerCompose.md)
+- [06 - Dockerfile aws+tf](./Activities/06-Dockerfile-tf-aws.md)
+- [07 - Dockerfile azure+tf](./Activities/07-Dockerfile-tf-azure.md)
 
 ## Collaborators
 | Collaborator       | e-mail                           |
