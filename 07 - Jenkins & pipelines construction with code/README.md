@@ -4,7 +4,8 @@
 Trainee will learn the structure of Declarative Pipeline, how to control the flow of execution, how to save artifacts of the build, and get practice using some of the features that give fit and finish to your Pipeline.
 
 ## Objectives
-- Understand the CI/CD concepts and Build Pipelines. 
+- Explain CI/CD concepts. 
+- Build pipelines.
 - Get an insight into all the fundamentals about Jenkins and its setup. 
 - Understanding Jenkins GUI. 
 - Configure and build basic Tools/Plugins. 
