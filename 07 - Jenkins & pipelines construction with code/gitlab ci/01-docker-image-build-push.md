@@ -8,7 +8,8 @@
    1. https://github.com/nginxinc/docker-nginx/blob/master/stable/alpine/Dockerfile
 4. Create a new file named `.gitlab-ci.yaml` 
 5. Add the following to the file and make sure you replace ${USER} and ${IMAGE_NAME} according your information :
-```image: docker:18.09.7
+```
+image: docker:18.09.7
 
 services:
   - docker:18.09.7-dind
@@ -59,4 +60,4 @@ MD file containing URL to the successful job and URL to docker hub where the new
 | ----------- |-------------| -------:|
 | Pipeline  | Successful pipeline completion| %50 |
 | Artifact    | Image available at docker hub   | %30 |
-| Understanding   | Clear understanding of | %30 |
+| Understanding   | Clear understanding of | %20 |
