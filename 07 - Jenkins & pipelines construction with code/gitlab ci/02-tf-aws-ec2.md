@@ -39,7 +39,7 @@ resource "aws_instance" "web" {
 }
 
 ```
-4. Create a new file named `.gitlab-ci.yaml` 
+4. Create a new file named `.gitlab-ci.yml` 
 5. Add the following to the file and make sure you replace image `name` for the one you built in Docker activity 6 :
 ```
 image:
