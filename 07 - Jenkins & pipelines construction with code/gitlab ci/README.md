@@ -9,7 +9,7 @@ Trainee will learn the structure of a gitlab-ci pipeline, how to manage processe
 ## Learning objectives 
 
 - Learn the basics of gitlab ci such the function of `gitlab-ci.yaml` 
-- Understand the function of the core gitlab-ci objects
+- Identify the function of the core gitlab-ci objects
 - Build basic pipelines
   
 ## Contents 
