@@ -6,7 +6,7 @@
 2. Follow the instructions to start working with that repository in your local environment
 3. Create a `Dockerfile`, it can be any of your own or one from internet such:
    1. https://github.com/nginxinc/docker-nginx/blob/master/stable/alpine/Dockerfile
-4. Create a new file named `.gitlab-ci.yaml` 
+4. Create a new file named `.gitlab-ci.yml` 
 5. Add the following to the file and make sure you replace ${USER} and ${IMAGE_NAME} according your information :
 ```
 image: docker:18.09.7
