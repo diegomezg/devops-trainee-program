@@ -10,14 +10,13 @@
 
 
 ### Expected deliverables
-- MD file with each activity
-- Documentation of procedures, include images if needed
-
+- MD file with procedure and Architecture Diagrams
+- Share the registry URL with the builded image
 
 
 ### Evaluation
 
 | Metric name        | Metric description                                | % Value |
 |:------------------ |:--------------------------------------------------|:--:|
-| MD format  | Clearity and completeness of their research | 40% |
-| Content |  Was able to explain in his/her own words the concepts | 60% |
+| MD format  | Clearity and completeness  procedure and Architecture Diagrams| 40% |
+| Content |  Was able to explain in his/her the pipeline and the Docker in docker concept | 60% |

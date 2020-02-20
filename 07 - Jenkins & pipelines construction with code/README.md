@@ -49,11 +49,10 @@ Jenkins Quick Start              | https://linuxacademy.com/cp/modules/view/id/3
 - [01 - Downloading and running Jenkins in Docker](./01-running-jenkins-in-docker.md)
 - [02 - Building a Jenkins Pipeline](./02-building-jenkins-pipeline.md)
 - [03 - Build CI/CD pipeline with Jenkins and Gradle](./03-build-ci-cd-pipeline-gradle.md)
-
+- [04 - Build Docker In Docker Pipeline](./04-build-docker-in-docker-pipeline.md)
 
 ## Collaborators
 Name     |   Slack  | Email |
 ---------|----------|----------|
 Monserrat Sedeno    | @Monse | monserrat.sedeno@digitalonus.com |
-Daniel Benson | @Daniel Benson  | daniel.benson@digitalonus.com |
-Rigel Reyes     | @Rigel Reyes | rigel.reyes@digitalonus.com |
+Eduardo Manrique | @Eduardo Manrique | eduardo.manrique@digitalonus.com |
