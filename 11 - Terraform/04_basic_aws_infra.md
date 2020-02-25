@@ -40,6 +40,8 @@ Trainees will create and tie AWS resources: VPC, Security Group and Instance. Yo
 
 5. In main.tf call the modules and then insert the required values in the aws_instance. To call these values you'll need to use the outputs inside each modules directory
 
+* Configure the resources using the following diagram: https://gitlab.com/dou-university/planning-committee/grad-program/-/blob/terraform/11%20-%20Terraform/04_basic_aws_infra_diagram.pdf
+
 ##### Expected deliverables 
 
 You have to be able to reach the server in port 22 using the public IP assigned to the instance after launch
