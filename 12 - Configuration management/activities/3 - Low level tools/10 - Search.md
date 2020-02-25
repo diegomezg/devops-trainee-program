@@ -10,7 +10,7 @@ When we used knife ssh we were implicitly searching through "nodes", but the Che
 - node
 - environment
 - role
--DATA_BAG_NAME - Note: we'll use the actual name of the data bag, so we would search explicitly on our users data bag.
+- DATA_BAG_NAME - Note: we'll use the actual name of the data bag, so we would search explicitly on our users data bag.
 
 To search over any of these indexes we'll use knife search [index name] [query] [flags]. Here's an example using the users data bag since it's the most unique of the possible indexes:
 
