@@ -207,6 +207,7 @@ Finally, we need to see what is in the /etc/motd file:
 user@keiththomps3.mylabserver.com's password:
 keiththomps3.mylabserver.com IP Address: 172.31.29.208
 keiththomps3.mylabserver.com Catch Phrase: Delivering in Staging
+```
 
 The attribute precedence can get a little complicated, so try to use the lowest precedence that you can in cookbooks so that the values can be tuned for more fine-grained sections of your infrastructure.
 
@@ -214,4 +215,3 @@ The attribute precedence can get a little complicated, so try to use the lowest 
 
 - The Chef attribute documentation
 - Ohai
-```
