@@ -11,6 +11,7 @@ Trainees will create and tie AWS resources: VPC, Security Group and Instance. Yo
     - aws_ami
     - aws_instance
 
+
 2. In the same file include a public VPC with the following resources:
     - aws_vpc
     - aws_subnet
@@ -28,6 +29,7 @@ Trainees will create and tie AWS resources: VPC, Security Group and Instance. Yo
     - securitygroup
     - vpc
 
+
 4. Move resources in the directories as the following:
     - `aws_ami` resource in `ami` directory
     - `aws_key_pair` in `security`
@@ -35,4 +37,9 @@ Trainees will create and tie AWS resources: VPC, Security Group and Instance. Yo
     - `aws_vpc`, `aws_subnet`, `aws_route_table`, `aws_internet_gateway`, `aws_route_table_association` and `aws_route` in `vpc`
     - Keep the `Provider` and `aws_instance` in `main.tf` file
 
+
 5. In main.tf call the modules and then insert the required values in the aws_instance. To call these values you'll need to use the outputs inside each modules directory
+
+##### Expected deliverables 
+
+You have to be able to reach the server in port 22 using the public IP assigned to the instance after launch
