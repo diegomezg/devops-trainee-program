@@ -14,25 +14,25 @@ This course will provide you with the experience necessary to be able to deploy 
 
 ## Contents
 - Chef Basic Terminology  
-    - High level tools 
-        - Chef Server 
-        - ChefDK 
-        - Bootstrapping a Node with Knife and chef-client 
-        - Supermarket 
-        - Test Kitchen 
-    - Lower level tools 
-        - Cookbooks 
-        - Recipes 
-        - Resources 
-        - Nodes    
-        - Run Lists 
-        - Roles 
-        - Environments 
-        - Attributes 
-        - Data bags 
-        - Search 
-        - Notifications 
-        - Conditionals 
+- High level tools 
+    - Chef Server 
+    - ChefDK 
+    - Bootstrapping a Node with Knife and chef-client 
+    - Supermarket 
+    - Test Kitchen 
+- Lower level tools 
+    - Cookbooks 
+    - Recipes 
+    - Resources 
+    - Nodes    
+    - Run Lists 
+    - Roles 
+    - Environments 
+    - Attributes 
+    - Data bags 
+    - Search 
+    - Notifications 
+    - Conditionals 
 
 
 ## Learning materials
@@ -43,9 +43,9 @@ This course will provide you with the experience necessary to be able to deploy 
 
 
 ## Course activities
-- 01 - Learn the chef basics.(./01-Learn Chef Basics.md)
-- 02 - Manage a Node with Chef Server.(./02-Manage a Node with Chef Server.md)
-- 03 - Get started with Test Kitchen.(./03-Getting started with test kitchen.md)
+- 01 - Chef Basic Terminology.(./01-Learn Chef Basics.md)
+- 02 - High level tools.(./02-Manage a Node with Chef Server.md)
+- 03 - Low level tools.(./03-Getting started with test kitchen.md)
 
 
 ## Collaborators
