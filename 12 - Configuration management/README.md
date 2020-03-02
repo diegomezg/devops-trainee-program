@@ -23,7 +23,6 @@ This course will provide you with the experience necessary to be able to deploy 
         - Bootstrapping a Node with Knife and chef-client 
         - Supermarket 
         - Test Kitchen 
-        - Troubleshooting Network issues 
     - Lower level tools 
         - Cookbooks 
         - Recipes 
