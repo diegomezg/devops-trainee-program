@@ -106,7 +106,7 @@ Policy maps business and operational requirements, process, and workflow to sett
 Some important aspects of policy include:
 
 ![Chef Policy 1](images/17-policy1.png)
-![Chef Policy 2](images/18-policy2.png
+![Chef Policy 2](images/18-policy2.png)
 
 ### Conclusion
 
