@@ -22,7 +22,9 @@ The following diagram shows the relationships between the various elements of Ch
 
 Chef has the following major components:
 
-** IMAGE **
+![Components 1](images/03-components1.png)
+![Components 2](images/04-components2.png)
+![Components 3](images/05-components3.png)
 
 Chef Client run reporting, compliance reporting, high availability configurations, and Chef Server replication are available as part of Chef Automate.
 
@@ -44,7 +46,11 @@ The workstation is where users do most of their work, including:
 
 Some important tools and components of Chef Workstation include:
 
-** IMAGE **
+![Workstation 1](images/06-workstations1.png)
+![Workstation 2](images/07-workstations2.png)
+![Workstation 3](images/08-workstations3.png)
+![Workstation 4](images/09-workstations4.png)
+
 
 ### Cookbooks
 
@@ -57,11 +63,13 @@ A cookbook is the fundamental unit of configuration and policy distribution. A c
 - Extensions to Chef, such as custom resources and libraries
 - The Chef Client uses Ruby as its reference language for creating cookbooks and defining recipes, with an extended DSL for specific resources. A reasonable set of resources are available to the Chef Client, enough to support many of the most common infrastructure automation scenarios; however, this DSL can also be extended when additional resources and capabilities are required.
 
-### Components
+Components
 
 Cookbooks are comprised of the following components:
 
-** IMAGE **
+![Cookbooks 1](images/10-workstations1.png)
+![Cookbooks 2](images/11-workstations2.png)
+![Cookbooks 3](images/12-workstations3.png)
 
 ### Nodes
 
@@ -71,19 +79,20 @@ A node is any device - physical, virtual, cloud, network device, etc. - that is 
 
 The types of nodes that can be managed by Chef include, but are not limited to, the following:
 
-** IMAGE **
+![Nodes](images/13-nodes.png)
 
 ### Chef on Nodes
 
 The key components of nodes that are under management by Chef include:
 
-** IMAGE **
+![Node components 1](images/14-node-components1.png)
+![Node components 2](images/15-node-components2.png)
 
 ### The Chef Server
 
 The Chef Server acts as a hub for configuration data. The Chef Server stores cookbooks, the policies that are applied to nodes, and metadata that describes each registered node that is being managed by Chef Client. Nodes use Chef Client to ask the Chef Server for configuration details, such as recipes, templates, and file distributions. Chef Client then does as much of the configuration work as possible on the nodes themselves (and not on the Chef Server). This scalable approach distributes the configuration effort throughout the organization.
 
-** IMAGE **
+![Chef Server](images/16-chef-server.png)
 
 ### Policy
 
@@ -96,7 +105,8 @@ Policy maps business and operational requirements, process, and workflow to sett
 
 Some important aspects of policy include:
 
-** IMAGE **
+![Chef Policy 1](images/17-policy1.png)
+![Chef Policy 2](images/18-policy2.png
 
 ### Conclusion
 
