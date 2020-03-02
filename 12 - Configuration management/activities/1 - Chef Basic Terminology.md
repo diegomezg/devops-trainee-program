@@ -8,7 +8,7 @@ Chef is a powerful automation platform that transforms infrastructure into code.
 
 This diagram shows how you develop, test, and deploy your Chef code.
 
-![Chef Overview](images/ 01_chef_overview.png)
+![Chef Overview](images/01_chef_overview.png)
 
 - **Chef Workstation** is the location where users interact with Chef. With Chef Workstation, users can author and test cookbooks using tools such as Test Kitchen and interact with the Chef Server using the knife and chef command line tools.
 - **Chef Client** nodes are the machines that are managed by Chef. The Chef Client is installed on each node and is used to configure the node to its desired state.
@@ -18,7 +18,7 @@ This diagram shows how you develop, test, and deploy your Chef code.
 
 The following diagram shows the relationships between the various elements of Chef, including the nodes, the server, and the workstation. These elements work together to provide the Chef Client the information and instruction that it needs so that it can do its job. As you are reviewing the rest of this topic, use the icons in the tables to refer back to this image.
 
-** IMAGE **
+![Chef Components](images/02_chef_components.png)
 
 Chef has the following major components:
 
