@@ -14,9 +14,6 @@ This course will provide you with the experience necessary to be able to deploy 
 
 ## Contents
 - Chef Basic Terminology  
-    - High level concepts 
-        - Infrastructure as Code 
-        - Desired State Configuration 
     - High level tools 
         - Chef Server 
         - ChefDK 
