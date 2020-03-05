@@ -1,7 +1,7 @@
 # Microsoft Azure
 
 ## Goals
-This training plan has been created to provide a basic introduction to Azure concepts and most common/used services.
+This course will provide a basic introduction to Azure concepts and also will drive through the most common Azure services.
 
 ## Objectives
 - Learn the Basic Concepts of Azure and Cloud Computing
