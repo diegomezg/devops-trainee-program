@@ -1,6 +1,6 @@
 # Chef
 
-## 04 - Nodes
+## 04 - Nodes Instructions
 
 ### What is a Node?
 
@@ -93,9 +93,16 @@ Note: truncated results (there’s a lot of information here)
 
 Using cloud servers, we’re in a good spot to see how the node object will be updated when chef-client has run. When a cloud server is stopped and started again, it will have a new public IP that upon running chef-client will be visible when we run knife node show NODE again.
 
-### Documentation for this lesson 
+### Expected deliverables
+- Deliver a cookbook applying the test-repair approach.
 
-- Chef node documentation
-- knife node documentation
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
 
         
