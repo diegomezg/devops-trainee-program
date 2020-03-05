@@ -1,6 +1,6 @@
 # Chef
 
-## 10 - Search
+## 10 - Search Instructions
 
 ### Chef Server Search Indexes
 
