@@ -1,26 +1,48 @@
-# {{ COURSE_NAME }}
+# Microsoft Azure
 
 ## Goals
-Place the goals of the course here to form one or more paragraphs.
+This course will provide a basic introduction to Azure concepts and also will drive through the most common Azure services.
 
 ## Objectives
-- Enumerate your learning objectives in a list
-- Elaborate as many as needed
+- Explain the basic concepts of Azure and cloud computing
+- Describe the differences between Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS) and Software-as-a-Service (SaaS)
+- Classify the core Azure architectural components
+- 
 
 ## Contents
-- List in a sequential order the contents of the course
-- Elaborate as many as needed
+- Cloud Concepts
+    - Regions 
+    - Availability Zones 
+    - High Availability 
+    - Fault Tolerance 
+    - Disaster Recovery 
+    - Scalability 
+    - Elasticity 
+- Azure Services 
+    - IaaS, PaaS, SaaS 
+    - Computing 
+    - Network 
+    - Storage 
+- Security 
+- Azure Pricing 
 
 
 ## Learning materials
-- Start by gathering the materials needed to complete the learning objectives.
-- Add them here in a form of a list
-- You can paste the URL's with a short title for each item
-
+ Course                           | URL
+---------------------------------| -----------------------------------------------
+High Availability, Fault Tolerance, and Disaster Recovery |https://linuxacademy.com/cp/courses/lesson/course/4073/lesson/2
+Azure Regions  | https://azure.microsoft.com/en-us/global-infrastructure/regions
+Azure Infrastructure | https://azure.microsoft.com/en-us/global-infrastructure/
+Scalability and Elasticity | https://linuxacademy.com/cp/courses/lesson/course/4073/lesson/3/module/330
 
 ## Course activities
-- [List course activities and link them](./01-activity-title.md)
+- [01 - Cloud Basic Concepts](./01-cloud-basic-concepts.md)
+- [02 - Creating a Virtual Machine](./02-creating-vm.md)
+- [03 - Creating Azure Virtual Networks](./03-network-creation.md)
 
 
 ## Collaborators
-- Place the name of reach collaborator and slack handle
+Name     |   Slack  | Email |
+---------|----------|----------|
+Monserrat Sedeno    | @Monse | monserrat.sedeno@digitalonus.com |
+Juan Francisco Gil | @Francisco Gil | francisco.gil@digitalonus.com |
