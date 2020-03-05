@@ -1,6 +1,6 @@
 # Chef
 
-## 09 - Databags
+## 09 - Databags Instructions
 
 ### What are Data Bags?
 
@@ -239,3 +239,15 @@ admins.each do |login|
   end
 end
 ```
+
+### Expected deliverables
+- Deliver a cookbook applying the test-repair approach.
+
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
