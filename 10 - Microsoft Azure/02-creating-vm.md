@@ -19,6 +19,8 @@
 
 - Under **Inbound port rules > Public inbound ports**, choose **Allow selected ports** and then select **SSH (22)** and **HTTP (80)** from the drop-down.
 
+Remember that if you're working with RDP the corresponding port is **3389**
+
 ![Inbound port rules](images/inbound-port-rules.png)
 
 - Leave the remaining defaults and then select the **Review + create** button at the bottom of the page.
