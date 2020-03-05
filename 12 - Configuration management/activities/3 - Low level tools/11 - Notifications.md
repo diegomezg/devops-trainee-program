@@ -1,6 +1,6 @@
 # Chef
 
-## 11 - Notifications
+## 11 - Notifications Instructions
 
 ### Specifying a Notification
 
@@ -176,8 +176,14 @@ Both notification types take an optional timer argument. The options are:
 - :immediately - Runs the notification right away.
 - :before - Runs the notified action before the notifier. For notifies it will run the argument to the notification first instead of the defining resource. For subscribes it will run the defining resources before the resources that it is subscribing to.
 
-### Documentation for this lesson
+### Expected deliverables
+- Deliver a cookbook applying the test-repair approach.
 
-- Notifications
-- The notifies notification
-- The subscribes notification
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
