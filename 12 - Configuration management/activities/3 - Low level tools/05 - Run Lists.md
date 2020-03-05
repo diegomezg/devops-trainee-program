@@ -1,6 +1,6 @@
 # Chef
 
-## 05 - Run Lists
+## 05 - Run Lists Instructions
 
 ### Uploading Our Cookbook
 
@@ -112,9 +112,14 @@ Breaking this command down, there are a few parts that are important:
 
 We didn’t need to know the IP address or FQDN of the web-node1 because it’s stored in the Chef Server as part of the node object.
 
-### Documentation for this lesson
+### Expected deliverables
+- Deliver a cookbook applying the test-repair approach.
 
-- Chef run-list documentation
-- The knife upload documentation
-- The knife node run_list documentation
-- The knife ssh documentation
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
