@@ -1,6 +1,6 @@
 # Chef
 
-## 08 - Attributes
+## 08 - Attributes Instructions
 
 ### What is an Attribute?
 
@@ -211,7 +211,14 @@ keiththomps3.mylabserver.com Catch Phrase: Delivering in Staging
 
 The attribute precedence can get a little complicated, so try to use the lowest precedence that you can in cookbooks so that the values can be tuned for more fine-grained sections of your infrastructure.
 
-### Documentation for this lesson
+### Expected deliverables
+- Deliver a cookbook applying the test-repair approach.
 
-- The Chef attribute documentation
-- Ohai
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
