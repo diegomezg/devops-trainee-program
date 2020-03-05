@@ -2,7 +2,9 @@
 
 ## 01 - Chef Server
 
-### Creating the Chef Server
+### Instructions
+
+#### Creating the Chef Server
 
 For this course, we’re going to use the most recent stable release of chef server (which is 12.17.331). Our first step is going to be creating a CentOS 7 cloud server to be used as our Chef server. After that server is running, we need to get the download link for a Redhat 64bit system from the downloads page (here’s the exact link used in this video). Let’s use curl to copy this onto our server so that we can install it. Since we’ll need to run virtually all of these commands using sudo we’ll switch to root at the start:
 
@@ -40,7 +42,7 @@ redis_lb*
 
 The * on each line indicates that the service is enabled and running. As we can see, it takes quite a few dependent services to make the Chef server work. As we go through this course we’ll learn more and more about what the Chef server itself does.
 
-### Creating Our User and Organization
+#### Creating Our User and Organization
 
 Before we can move on, we need to set up a user and an organization to belong to. Organizations are the umbrella that we will register nodes under and associate cookbooks with as we move forward. Let’s start by creating our user:
 
@@ -64,7 +66,7 @@ This command is very similar to our user creation command, but it is important t
 
 The --association_user flag will take an existing user’s username and associate it with the admin security group on the Chef server. Lastly, the --filename flag stores off the organization’s validator pem. We won’t be using this file during this course.
 
-### Adding chef-manage Web UI
+#### Adding chef-manage Web UI
 
 The last thing we’re going to do with our Chef server right now is install a web UI add-on called “Chef Manage”. This add-on gives us a web-based way to see all of the Chef related information that we’ll need around our organization including node information, cookbook versions, and more. Once again, we will install this add-on using the chef-server-ctl utility:
 
@@ -90,17 +92,6 @@ yes
 Note: You'll will need to close the license agreement by hitting q before you can type `yes`.
 
 After we accept the license agreement then another chef-client run will occur configuring the services managed by chef-manage. Once the reconfiguration has finished, we can access the UI by going to https://SERVER_PUBLIC_IP. We need to tell the browser that we understand that the website is using a self-signed certificate, and after we do that we can see that there is a sign in form. We’ll ensure that the username/password created earlier works, and then we’re ready to move forward.
-
-# 02 – Manage a Node with Chef Server 
-
-
-### Instructions
-- Write a small amount of Chef code that expresses some new policy or feature. 
-- Verify your change on local test instances. 
-- Upload your code to the Chef server. 
-- Run chef-client to apply the updated policy on your node. 
-- Repeat the process.  
-
 
 ### Expected deliverables
 - Show and explain the flow to bootstrap and to manage a node with chef server. 
