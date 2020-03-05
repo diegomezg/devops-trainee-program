@@ -27,6 +27,16 @@ Remember that if you're working with RDP the corresponding port is **3389**
 
 - On the **Create a virtual machine** page, you can see the details about the VM you are about to create. When you are ready, select **Create**.
 
+## Setting a DNS name in a Virtual Machine (Optional Step)
+- In the VM **Overview** section, click on **Configure** next to the DSN name on the column of the right.
+![2020-03-05_09.24.50_portal.azure.com_de63a036de29](/uploads/a224721253a05c8e0109ddff11534e87/2020-03-05_09.24.50_portal.azure.com_de63a036de29.png)
+
+- Now on the DSN name configuration section, set a unique **DSN name label** and click **Save**
+![2020-03-05_09.25.40_portal.azure.com_bfa3e8642d6e](/uploads/fc2c2cba84e9171693fca890c269bc1d/2020-03-05_09.25.40_portal.azure.com_bfa3e8642d6e.png)
+
+- Go back to the VM overview in the portal and notice the DNS Name has been assigne; otherwise, click **Refresh** to load its value.
+![2020-03-05_09.28.59_portal.azure.com_4520dc5fe369](/uploads/5f4a6b2d35b1e52faabd9f5291fb1d90/2020-03-05_09.28.59_portal.azure.com_4520dc5fe369.png)
+
 ## Connect to virtual machine
 - Create an SSH connection with the VM.
     - Select the **Connect** button on the overview page for your VM.
