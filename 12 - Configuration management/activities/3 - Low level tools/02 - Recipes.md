@@ -1,5 +1,4 @@
-
-## 02 - Recipes
+## 02 - Recipes Instructions
 
 ### The default Recipe
 
@@ -136,10 +135,14 @@ Chef Client finished, 1/3 resources updated in 06 seconds
 
 Since the service was not enabled, an action was taken to enable it. This change was the only modification Chef needed to make to get the system back to the desired state.
 
-### Documentation for this lesson
+### Expected deliverables
+- Deliver a cookbook applying the test-repair approach.
 
-- Chef cookbook documentation
-- Chef recipe documentation
-- Chef resource documentation
-- The package resource documentation
-- The service resource documentation
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
