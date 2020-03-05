@@ -1,6 +1,6 @@
 # Chef
 
-## 01 - Cookbooks
+## 01 - Cookbooks Instructions
 
 ### What is a cookbook?
 
@@ -110,23 +110,14 @@ Going through this list, here’s an overview of what each file is used for:
 
 In the next few lessons, we’ll look at more and more of the building blocks that we’ll use when working with Chef.
 
-### Documentation for this lesson
+### Expected deliverables
+- Deliver a cookbook applying the test-repair approach.
 
-- Chef cookbook documentation
-- Berkshelf documentation
-- delivery documentation
-- kitchen documentation
+### Evaluation
 
-### Expected deliverable
-- MD file with each activity question answered
-- Documentation of procedures, include images if needed
-
-### Measuring instrument
-
-| Metric  |  Description | Value  |
-| ------------ | ------------ | ------------ |
-|  Docker Architecture |  Drawed by your self the docker Architecture.  | 20%  |
-|  Docker Hub and Architecture | Explained the importance of Docker Hub into the Docker Architecture.  |  20% |
-|  Docker Hub | Provided an alternative solution to the use of Docker Hub.  |  20% |
-|  Docker Hub | Compared and analyze Docker Hub VS your alternative solution and identify the pros and cons.  |  20% |
-|  Docker Commands | Mentioned the docker commands involved to Docker Hub  |  20% |
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
