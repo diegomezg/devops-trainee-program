@@ -1,8 +1,10 @@
 # Chef
 
-## Bootstrapping a Node with Knife and chef-client
+## 03 - Bootstrapping a Node with Knife and chef-client
 
-### Bootstrapping a Node with knife
+### Instructions
+
+#### Bootstrapping a Node with knife
 Before we can start working with Chef to manage configuration, we need to have a node to work with. To do this, we will create another new CentOS 7 cloud server. We will need to log into this server the first time so that we can reset the user password, but after that most of what we do will be done from our “workstation” server.
 
 From our workstation, we’re going to use the knife utility and the bootstrap subcommand. Let’s take a look at the help text for this utility before we actually run it:
@@ -24,7 +26,7 @@ We’ll see that there are a lot of available options, but thankfully, we don’
 
 This process installs the chef-client and associated software packages onto the node and also utilizes the information from our workstation to communicate with the Chef Server and register the node as both a “node” and a “client” of the Chef server. Additionally, the chef-client is run, fetching the configuration from the Chef server, but there currently isn’t anything there so the process only actually updates the Chef server with the information about the node.
 
-## The chef-client Process
+#### The chef-client Process
 
 Before we move on, let’s talk about what happens when a chef-client run occurs. Here’s the process:
 
@@ -38,3 +40,15 @@ Before we move on, let’s talk about what happens when a chef-client run occurs
 8. Converge the node - Execute the run-list.
 9. Update the node object, process exception & report handlers - Update the node object on the Chef server after the chef-client run finishes successfully. Also executing the exception and report handlers in the proper order.
 10. Stop, wait for the next run - The chef-client waits until the next time it is executed.
+
+### Expected deliverables
+- Show and explain the flow to bootstrap and to manage a node with chef server. 
+
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
