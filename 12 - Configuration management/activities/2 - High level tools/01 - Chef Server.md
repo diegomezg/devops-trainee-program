@@ -94,7 +94,7 @@ Note: You'll will need to close the license agreement by hitting q before you ca
 After we accept the license agreement then another chef-client run will occur configuring the services managed by chef-manage. Once the reconfiguration has finished, we can access the UI by going to https://SERVER_PUBLIC_IP. We need to tell the browser that we understand that the website is using a self-signed certificate, and after we do that we can see that there is a sign in form. We’ll ensure that the username/password created earlier works, and then we’re ready to move forward.
 
 ### Expected deliverables
-- Show and explain the flow to bootstrap and to manage a node with chef server. 
+- Show and explain the flow to install chef server. 
 
 
 ### Evaluation
