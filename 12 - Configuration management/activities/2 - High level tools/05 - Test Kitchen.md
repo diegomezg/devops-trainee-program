@@ -11,7 +11,7 @@ Test Kitchen (or just “Kitchen”) is a testing harness that allows us to easi
 We’ll be using Kitchen throughout this course, and it is used extensively when preparing for the Local Cookbook Development Badge.
 
 ### Expected deliverables
-- Show and explain the flow to bootstrap and to manage a node with chef server. 
+- Show and explain the purpose of Test Kitchen. 
 
 ### Evaluation
 
