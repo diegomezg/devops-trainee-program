@@ -2,7 +2,7 @@
 # 01 - Cloud Basic Concepts
 
 ### Instructions
-- Take the following Azure courses:
+Take the following Azure courses:
     - [High Availability, Fault Tolerance, and Disaster Recovery](https://linuxacademy.com/cp/courses/lesson/course/4073/lesson/2)
     - [Scalability and Elasticity](https://linuxacademy.com/cp/courses/lesson/course/4073/lesson/3/module/330)
 Describe *in your own words* the following concepts:
