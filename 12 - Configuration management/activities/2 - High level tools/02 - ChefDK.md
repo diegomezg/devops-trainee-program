@@ -2,7 +2,9 @@
 
 ## 02 - ChefDK
 
-### Installing the ChefDK
+### Instructions
+
+#### Installing the ChefDK
 
 We'll continue utilizing CentOS 7 servers through this course, including our workstation. Once the server is running, we're ready to download the ChefDK rpm and install it. Since we're preparing for the exam, we'll be using the most recent stable release of the ChefDK (which is 2.5.3 at this time):
 
@@ -60,7 +62,7 @@ Now we know that we're using the proper version of ruby. Since our workstation i
 $ echo 'eval "$(chef shell-init bash)"' >> ~/.bash_profile
 ```
 
-### Generating a chef-repo
+#### Generating a chef-repo
 
 When developing with Chef we'll usually be working from within a "chef-repo" that holds onto our cookbooks and dependencies and is shared amongst our team(s). There are a few different ways to get started with a chef-repo and we're going to take a look at both of them. The first way is to generate one using the chef utility. Let's create one now:
 
@@ -141,7 +143,7 @@ $ knife node list
 
 The self-signed certificate for our Chef server is based on the hostname, so we'll use that in our knife configuration so that it will be correct even beyond a server restart with a new IP address. Running knife node list doesn't output anything because we don't have any nodes yet, but it didn't error so we know the connection worked.
 
-### Utilizing a Starter Kit from the Chef Server
+#### Utilizing a Starter Kit from the Chef Server
 
 The alternative way that we can go about setting up a chef-repo is by downloading it from our Chef server as a "starter kit". To get to this download we need to log into the chef-manage UI to the path /organizations/[ORGANIZATION_NAME]/getting_started. From there, we need to select "Starter Kit" from the sidebar, and then click "Download Starter Kit".
 
@@ -192,3 +194,15 @@ The big difference between this repo and our generated repository is that it inc
 ```
 
 Now we're ready to move forward to use our workstation.
+
+### Expected deliverables
+- Show and explain the flow to bootstrap and to manage a node with chef server. 
+
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
