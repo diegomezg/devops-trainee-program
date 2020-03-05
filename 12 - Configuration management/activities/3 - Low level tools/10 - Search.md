@@ -139,8 +139,14 @@ keiththomps3.mylabserver.com Running handlers:
 keiththomps3.mylabserver.com Running handlers complete
 keiththomps3.mylabserver.com Chef Client finished, 1/21 resources updated in 22 seconds
 ```
-### Documentation for this lesson
+### Expected deliverables
+- Deliver a cookbook applying the test-repair approach.
 
-- Chef search documentaiton
-- knife search documentation
-If we add a new environment to the Chef Server and re-run chef-client then the environment will be reflected in this HTML file automatically.
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
