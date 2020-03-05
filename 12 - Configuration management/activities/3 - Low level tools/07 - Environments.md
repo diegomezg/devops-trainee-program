@@ -1,6 +1,6 @@
 # Chef
 
-## 07 - Environments
+## 07 - Environments Instructions
 
 ### Creating an Environment
 
@@ -73,7 +73,14 @@ web-node1:
   environment: staging
 ```
 
-### Documentation for this lesson
+### Expected deliverables
+- Deliver a cookbook applying the test-repair approach.
 
-- Chef environments documentation
-- knife environment documentation
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
