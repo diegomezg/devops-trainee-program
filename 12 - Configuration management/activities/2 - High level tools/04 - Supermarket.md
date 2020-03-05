@@ -23,7 +23,7 @@ By itself a repository of cookbooks isn’t useful, we need to be able to publis
 2. Stove - used to version and publish cookbooks to a supermarket (either public or private).
 
 ### Expected deliverables
-- Show and explain the flow to bootstrap and to manage a node with chef server. 
+- Show and explain the usage of Chef SuperMarket. 
 
 ### Evaluation
 
