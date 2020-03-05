@@ -2,7 +2,9 @@
 
 ## 04 - Supermarket
 
-### What is Chef Supermarket?
+### Instructions
+
+#### What is Chef Supermarket?
 
 The Chef Supermarket is a searchable repository for cookbooks. Most modern programming languages have repositories for open source packages (Pypi for Python, Rubygems.org for Ruby, etc.) and that is what the Chef Supermarket is for cookbooks. There are a few ways that you can interact with the Chef Supermarket:
 
@@ -13,9 +15,21 @@ If our organization has a collection of cookbooks that we utilize only internall
 
 Beware: not all of the cookbooks on the public supermarket are up to date and secure, you’ll want to vet anything open source cookbook that you use.
 
-### Other Supermarket Related Tools
+#### Other Supermarket Related Tools
 
 By itself a repository of cookbooks isn’t useful, we need to be able to publish, version, and download the cookbooks. There are a few recommended tools for handling these workflows:
 
 1. Berkshelf - used to install and manage cookbook dependencies and versions
 2. Stove - used to version and publish cookbooks to a supermarket (either public or private).
+
+### Expected deliverables
+- Show and explain the flow to bootstrap and to manage a node with chef server. 
+
+### Evaluation
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| 01 - Understanding  | Clear Understanding of Each of the Chef Concepts | %25 |
+| 02 - Architecture Idea   | Project and Code Structure / Designed | %25 |
+| 03 - Collaboration   | Team Working and Integration | %25 |
+| 04 - Functional   | It could be useful for an improvement | %25 |
