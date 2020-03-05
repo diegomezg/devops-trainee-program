@@ -6,7 +6,7 @@ This course will provide a basic introduction to Azure concepts and also will dr
 ## Objectives
 - Explain the basic concepts of Azure and cloud computing
 - Describe the differences between Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS) and Software-as-a-Service (SaaS)
-- Understand the core Azure architectural components
+- Classify the core Azure architectural components
 - 
 
 ## Contents
