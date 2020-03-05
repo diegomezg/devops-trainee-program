@@ -196,7 +196,7 @@ The big difference between this repo and our generated repository is that it inc
 Now we're ready to move forward to use our workstation.
 
 ### Expected deliverables
-- Show and explain the flow to bootstrap and to manage a node with chef server. 
+- Show and explain the flow to install ChefDK. 
 
 ### Evaluation
 
