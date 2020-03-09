@@ -46,7 +46,7 @@ Trainees will create and tie AWS resources: VPC, Security Group and Instance. Yo
 
 ##### Expected deliverables 
 
-You have to be able to reach the server in port 22 using the public IP assigned to the instance after launch
+You have to be able to reach the server in port 22 using the public IP assigned to the instance after launch, submit proof of functionality and terraform code.
 
 #### Measuring instrument
 | Metric  |  Description | Value  |
