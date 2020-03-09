@@ -49,6 +49,7 @@ Trainees will be led to make complete infrastructure as code on different provid
 
 ## Learning materials 
 
+- [terraform_slides](https://digitalonus01.sharepoint.com/:p:/r/_layouts/15/Doc.aspx?sourcedoc=%7B0ECC5406-4E1C-47C0-8E2C-CE120AB944A7%7D&file=DOU%20University%20-%20Terraform.pptx&action=edit&mobileredirect=true)
 - Terraform: Up and Running 
 ISBN: 978-1-491-97708-8 
 - Terraform Docs 
