@@ -1,5 +1,4 @@
 # TERRAFORM 
-[terraform_slides](https://digitalonus01.sharepoint.com/:p:/r/_layouts/15/Doc.aspx?sourcedoc=%7B0ECC5406-4E1C-47C0-8E2C-CE120AB944A7%7D&file=DOU%20University%20-%20Terraform.pptx&action=edit&mobileredirect=true)
 
 ###### Course duration – 3 days
 
