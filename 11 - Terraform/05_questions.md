@@ -1,6 +1,6 @@
 # 05 - Questions
 
-Here we have a Terraform script building a simple VPC public network, for now we have just one instance running the web server Apache in it's default configuration, serving up the default welcome page. To run this use the following command...
+Below we have a Terraform script for building a simple VPC public network with just one instance running the web server Apache in its default configuration, serving up the Apache welcome page. To run this use the following command:
 
     terraform apply -var-file=vars.tfvars
 
