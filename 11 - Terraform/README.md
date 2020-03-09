@@ -11,7 +11,7 @@ Trainees will be led to make complete infrastructure as code on different provid
 - Understanding immutable infrastructure. 
 - Understand when to use Terraform and/or Config Mgmt tools. 
 - Use DevOps techniques with Terraform. 
-- Learn to integrate Terraform to CICD tools. 
+- Integrate Terraform to CICD tools. 
 
  
 
