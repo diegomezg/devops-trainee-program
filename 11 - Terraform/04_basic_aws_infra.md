@@ -47,3 +47,20 @@ Trainees will create and tie AWS resources: VPC, Security Group and Instance. Yo
 ##### Expected deliverables 
 
 You have to be able to reach the server in port 22 using the public IP assigned to the instance after launch
+
+#### Measuring instrument
+| Metric  |  Description | Value  |
+| ------------ | ------------ | ------------ |
+|  Security group | aws_security_group was implemented  | 8%  |
+|   Key pair | aws_key_pair was implemented  |  8% |
+|  AMI | aws_ami was implemented   |  8% |
+|  VPC | aws_vpc was implemented   |  8% |
+|  Subnet | aws_subnet was implemented   |  8% |
+|  Route table | aws_route_table was implemented   |  8% |
+|  Internet gateway | aws_internet_gateway was implemented   |  8% |
+|  Route table association | aws_route_table_association was implemented   |  8% |
+|  Route | aws_route was implemented   |  8% |
+|  Resources | All of the resources are located in their respective folder   |  8% |
+|  Functional | Provided scripts is fully functional   |  20% |
+
+
