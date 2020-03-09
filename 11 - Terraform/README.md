@@ -10,7 +10,7 @@ Trainees will be led to make complete infrastructure as code on different provid
 
 - Recognize immutable infrastructure. 
 - Identify when to use Terraform and/or configuration management tools. 
-- Use DevOps techniques with Terraform. 
+- Apply DevOps techniques with Terraform. 
 - Integrate Terraform to CICD tools. 
 
  
