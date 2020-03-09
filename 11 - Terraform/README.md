@@ -9,7 +9,7 @@ Trainees will be led to make complete infrastructure as code on different provid
 ## Learning objectives 
 
 - Recognize immutable infrastructure. 
-- Understand when to use Terraform and/or Config Mgmt tools. 
+- Identify when to use Terraform and/or configuration management tools. 
 - Use DevOps techniques with Terraform. 
 - Integrate Terraform to CICD tools. 
 
