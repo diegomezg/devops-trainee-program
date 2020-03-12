@@ -4,7 +4,7 @@
 This course will provide you with the experience necessary to be able to deploy and utilize Chef for configuration management and a basic understanding of Chef core components, architecture and basic troubleshooting.   
 
 ## Objectives
-- An understanding of basic Chef terminology.      
+- Describe basic Chef terminology.      
 - An understanding of Chef product offering.      
 - An understanding of Chef's design philosophy.     
 - An understanding of Chef's approach to workflow and compliance.     
