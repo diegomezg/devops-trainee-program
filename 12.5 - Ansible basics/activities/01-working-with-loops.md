@@ -1,5 +1,5 @@
 # Ansible basics
-# Working with loops
+## Working with loops
 
 ### Instructions
 - Create a new playbook that add users: **user1** and **user2** to group wheel.
