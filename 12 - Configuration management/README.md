@@ -5,7 +5,7 @@ This course will provide you with the experience necessary to be able to deploy 
 
 ## Objectives
 - Describe basic Chef terminology.      
-- An understanding of Chef product offering.      
+- Recognize Chef product offerings.      
 - An understanding of Chef's design philosophy.     
 - An understanding of Chef's approach to workflow and compliance.     
 - An understanding of Coding Chef recipes and cookbooks. 
