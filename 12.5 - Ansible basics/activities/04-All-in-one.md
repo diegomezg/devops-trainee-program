@@ -1,5 +1,5 @@
 # Ansible basics
-# Working with modules, Linux and modules!~~~
+## Working with modules, Linux and modules!~~~
 
 ### Instructions
 Create a new playbook and take in consideration the following:
