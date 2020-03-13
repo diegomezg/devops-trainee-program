@@ -1,0 +1,1 @@
+3er día ver ingress y dejar de practica que expongan un nginx con un ingress
