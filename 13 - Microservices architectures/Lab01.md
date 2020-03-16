@@ -23,6 +23,6 @@ Punctuality evaluation:
 - 40% if delivered the same day the class was taken (March 16th)
 - 30% if delivered the next day (March 17th)
 - 20% if delivered on March 18th
-- 10% if its delivered before the week ends (Saturday 21st, 11:59pm. Guadalajara time)
+- 10% if delivered before the end of the week (Saturday 21st, 11:59pm. Guadalajara time)
 - Failing grade if not delivered within the week
 
