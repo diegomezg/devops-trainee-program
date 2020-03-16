@@ -50,3 +50,7 @@ Open up a merge request in your forked repo and assign the corresponding instruc
 | ----------- |-------------| -------|
 | 01 - Linux operating system   | Juan Carlos Perez | [@jcph](https://gitlab.com/jcph) |
 | 02 - Git   | Aram Rascón | [@aram-cuu](https://gitlab.com/aram-cuu) |
+| 03 - Introduction to DevOps | Monse Sedeno | [@msede25](https://gitlab.com/msede25)|
+| 04 - Shell scripting | Ricardo Magana | [@ricmagl](https://gitlab.com/ricmagl)|
+| 05 - Python | Alan Acosta | [@Alan Acosta](https://gitlab.com/alan-mas)|
+| 06 - Docker | Francisco Gil | [@Francisco Gil](https://gitlab.com/franciscogil)|
