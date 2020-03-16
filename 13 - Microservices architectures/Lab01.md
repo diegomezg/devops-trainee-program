@@ -1,0 +1,21 @@
+# {{ Microservices architectures }}
+# Lab 1 , The Monolith (LEMP Server)
+
+### Instructions
+- by any means of infrastructure (VMs, AWS, GCP, DigitalOcean), you will create an ubuntu server and deploy ["ghost blog"](https://www.linuxbabe.com/ubuntu/install-ghost-blog-ubuntu) using mysql (not MariaDB) and nginx, as database and reverse proxy, respectively
+
+
+
+### Expected deliverables
+- the task is completed when you can demonstrate that the application is reachable via web browser and a video (webm video preferred) showing the services running is sent to galileo.martinez@digitalonus.com
+- a brief description of the procedure should be included, but no specific requirements for this doc are made
+
+
+
+### Evaluation
+
+100% if its delivered the same day the class was taken (March 16th)
+85% if its delivered the next day (March 17th)
+75% if its delivered on March 18th
+60% if its delivered before the week ends (Saturday 21st, 11:59pm. Guadalajara time)
+Failing grade if not delivered within the week

@@ -14,9 +14,9 @@ The goal of the course is for trainees to understand what is a microservices arc
 
 ## Contents
 - [Microservices](docs/Microservices.md)    
-- The Evolutionary Architect
-- How to model Services
-- Splitting the Monolith
+- [The Evolutionary Architect](docs/The_Evolutionary_Architect.md)
+- [How to model Services](docs/How_to_model_Services.md)
+- [Splitting the Monolith](docs/Splitting_The_Monolith.md)
 
 ## Learning materials
 | Course | Materials |
@@ -27,8 +27,8 @@ The goal of the course is for trainees to understand what is a microservices arc
 
 ## Course activities
 - Presentation
-- Lab 1 , The Monolith (LEMP Server)
-- Lab 2 , The microservice approach, DockerCompose
+- [Lab 1 , The Monolith (LEMP Server)](Lab01.md)
+- [Lab 2 , The microservice approach, DockerCompose](Lab02.md)
 
 ## Collaborators
 - Galileo Martinez (galileo.martinez@digitalonus.com).  
