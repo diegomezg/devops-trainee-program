@@ -16,7 +16,7 @@
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
 | Punctuality   | (See punctuality details below) | 40% |
-| Documentation   | Proceudre cto configurate the application was delivered | 30% |
+| Documentation   | Procedure to configure the application was delivered | 30% |
 | Functionality   | Application is available via web browser | 30% |
 
 Punctuality evaluation:
