@@ -19,7 +19,13 @@
 | Documentation   | Tell us what this metric is measuring | 20% |
 | Functionality   | Application is available via web browser | 20% |
 
-- 100% if its delivered the same day the class was taken (March 16th)
+Punctuality evaluation:
+- 40% if its delivered the same day the class was taken (March 16th)
+- 30% if its delivered the next day (March 17th)
+- 20% if its delivered on March 18th
+- 10% if its delivered before the week ends (Saturday 21st, 11:59pm. Guadalajara time)
+- Failing grade if not delivered within the week
+
 - 85% if its delivered the next day (March 17th)
 - 75% if its delivered on March 18th
 - 60% if its delivered before the week ends (Saturday 21st, 11:59pm. Guadalajara time)
