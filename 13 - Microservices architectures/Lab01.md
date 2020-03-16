@@ -17,7 +17,7 @@
 | ----------- |-------------| -------:|
 | Punctuality   | (See punctuality details below) | 40% |
 | Documentation   | Proceudre cto configurate the application was delivered | 30% |
-| Functionality   | Application is available via web browser | 20% |
+| Functionality   | Application is available via web browser | 30% |
 
 Punctuality evaluation:
 - 40% if its delivered the same day the class was taken (March 16th)
