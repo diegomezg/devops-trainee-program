@@ -16,7 +16,7 @@
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
 | Punctuality   | (See punctuality details below) | 40% |
-| Documentation   | Tell us what this metric is measuring | 20% |
+| Documentation   | Proceudre cto configurate the application was delivered | 30% |
 | Functionality   | Application is available via web browser | 20% |
 
 Punctuality evaluation:
