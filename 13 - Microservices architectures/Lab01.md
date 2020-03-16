@@ -26,7 +26,3 @@ Punctuality evaluation:
 - 10% if its delivered before the week ends (Saturday 21st, 11:59pm. Guadalajara time)
 - Failing grade if not delivered within the week
 
-- 85% if its delivered the next day (March 17th)
-- 75% if its delivered on March 18th
-- 60% if its delivered before the week ends (Saturday 21st, 11:59pm. Guadalajara time)
-- Failing grade if not delivered within the week
