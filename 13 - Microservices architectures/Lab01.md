@@ -13,6 +13,11 @@
 
 
 ### Evaluation
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| Punctuality   | (See punctuality details below) | 40% |
+| Documentation   | Tell us what this metric is measuring | 20% |
+| Functionality   | Application is available via web browser | 20% |
 
 - 100% if its delivered the same day the class was taken (March 16th)
 - 85% if its delivered the next day (March 17th)
