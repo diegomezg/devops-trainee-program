@@ -13,7 +13,7 @@ The goal of the course is for trainees to understand what is a microservices arc
 - Understand what horizontal scaling is, and understand what it need to work properly
 
 ## Contents
-- [Microservices](docs/1-Chef-Basic-Terminology.md)    
+- [Microservices](docs/Microservices.md)    
 - The Evolutionary Architect
 - How to model Services
 - Splitting the Monolith
