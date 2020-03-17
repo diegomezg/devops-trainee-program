@@ -1,4 +1,3 @@
-1er día ver core concepts de k8s como servicio (apiserver, etcd, cloud/controller manager, scheduler, kube-proxy, dns)
 
 
 # Getting started with Kubernetes
