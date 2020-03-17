@@ -1,26 +1,83 @@
-# {{ COURSE_NAME }}
+# Kubernetes essentials  
+
+Course duration – 3 days  
 
 ## Goals
-Place the goals of the course here to form one or more paragraphs.
+This course will prepare the trainees to understand kubernetes core concepts, including cluster architecture and components, identifying the role of each of them. 
 
-## Objectives
-- Enumerate your learning objectives in a list
-- Elaborate as many as needed
+## Learning Objectives
+* Explain what kubernetes is 
+* Understand why we need kubernetes
+* Describe k8s architecture and where can be executed
+* Be able to understand kubernetes resources
+* Be able to understand the networking and storage options availables in the market
+* To know the core concepts of kubernetes 
+* Understand different ways to expose an application 
 
 ## Contents
-- List in a sequential order the contents of the course
-- Elaborate as many as needed
+* What is kubernetes? 
+* What problem solves? 
+* Kubernetes architecture 
+* Cloud, Local & OnPrem
+* Kubernetes resources 
+* How to create a Kubernetes resource 
+* Kubernetes workloads, services & ingresses
+* Kubernetes integrations
+* Kubernetes networking
+* Kubernetes storage
+* Deploy an application 
+* Expose your application to the world  
+* Basic workshop to deploy an application in kubernetes 
+
 
 
 ## Learning materials
-- Start by gathering the materials needed to complete the learning objectives.
-- Add them here in a form of a list
-- You can paste the URL's with a short title for each item
 
+**References**
+
+- https://kubernetes.io/docs/tutorials/kubernetes-basics/ 
+- https://kubernetes.io/docs/concepts/workloads/pods/  
+- https://kubernetes.io/docs/concepts/architecture/ 
+- https://kubernetes.io/docs/concepts/services-networking/service/  
+
+**Optional**
+
+Ilustrations
+
+- https://cloud.google.com/kubernetes-engine/kubernetes-comic
+- https://www.cncf.io/the-childrens-illustrated-guide-to-kubernetes/
+- https://medium.com/tarkalabs/know-kubernetes-pictorially-f6e6a0052dd0 
+
+Courses
+
+- https://www.udemy.com/course/learn-kubernetes/
+- https://www.udemy.com/course/kubernetesmastery/
+- https://www.youtube.com/playlist?list=PL34sAs7_26wNBRWM6BDhnonoA5FMERax0 
+
+Extras
+
+- [Landscape](https://landscape.cncf.io)
+- [DevOps periodic table](https://blog.xebialabs.com/2019/12/11/version-4-of-the-periodic-table-of-devops-tools-is-coming/ )
 
 ## Course activities
-- [List course activities and link them](./01-activity-title.md)
+  
+* [Introduction to core-concepts (descriptions)](core-concepts.md)
+* [Evaluating core conceps (kahoot)](kahoot_one.md)  
+* [Kubernetes flavors & tools](flavors-tools.md)
+* [Creating an ingress controller](ingress-practice.md)   
+* [Final Kahoot](kahoot_final.md)
+* [Q&A session](q_a.md)
+* [Feedback session](mentee.md)
+
 
 
 ## Collaborators
-- Place the name of reach collaborator and slack handle
+
+Name     |   Slack  | 
+---------|----------|
+ Javier Lizarraga   | @javier | 
+ Oscar Hernandez    | @oscar_hernandez |
+ Gerardo Rosales    | @gera |
+
+
+
