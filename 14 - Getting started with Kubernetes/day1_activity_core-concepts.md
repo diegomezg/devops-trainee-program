@@ -18,7 +18,7 @@ Create an MD file and document the following points:
 7. Use an analogy comparing kubernetes with the real world....like explaining k8s to a kid 
 8. Explain the kubernetes flavours, use a table to show advantajes & disadvantajes 
 9. Mention some k8s objects/resources (at least 5)
-10. based on your experience....
+10. Based on your experience....
     1.  how would you like to implement the use of k8s in a real life project.
     2.  what kind of resources would you use
     3.  your implementation would be private or public...explain why
