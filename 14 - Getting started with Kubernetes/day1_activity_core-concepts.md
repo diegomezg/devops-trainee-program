@@ -23,7 +23,7 @@ Create an MD file and document the following points:
     2.  What kind of resources would you use?
     3. Would you make your implementation private or public? Explain why
     4.  What flavor is the best option for this?
-    5.  what other tools do you need to achieve your imaplementation? 
+    5.  What other tools do you need to achieve your implementation? 
 ...
 
 
