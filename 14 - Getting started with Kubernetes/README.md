@@ -18,7 +18,7 @@ This course will prepare the trainees to understand kubernetes core concepts, in
 * What is kubernetes? 
 * What problem solves? 
 * Kubernetes architecture 
-* Cloud, Local & OnPrem
+* Flavours 
 * Kubernetes resources 
 * How to create a Kubernetes resource 
 * Kubernetes workloads, services & ingresses
@@ -58,16 +58,21 @@ Extras
 
 - [Landscape](https://landscape.cncf.io)
 - [DevOps periodic table](https://blog.xebialabs.com/2019/12/11/version-4-of-the-periodic-table-of-devops-tools-is-coming/ )
+- [Additional PDFs](Others/) 
 
 ## Course activities
   
-* [Introduction to core-concepts (descriptions)](core-concepts.md)
-* [Evaluating core conceps (kahoot)](kahoot_one.md)  
-* [Kubernetes flavors & tools](flavors-tools.md)
+* [Introduction to core-concepts ](day1_activity_core-concepts.md)
+* [Evaluating core conceps (kahoot)](day1_overview_menti.md) 
+* ---
+* [Menti k8s general test evaluation ](day2_mentii_leaderboard.md)
+* [Deployment student-demo presentation](day2-presentation_deploy.md)  
+* [Flavors & tools](flavors-tools.md)
+* ---
+* [Evaluation test](eval.md)
 * [Creating an ingress controller](ingress-practice.md)   
-* [Final Kahoot](kahoot_final.md)
-* [Q&A session](q_a.md)
-* [Feedback session](mentee.md)
+* [Q&A session + Feedback](q_a.md)
+* 
 
 
 
