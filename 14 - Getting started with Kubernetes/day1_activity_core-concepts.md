@@ -37,4 +37,3 @@ Create an MD file and document the following points:
 | MD format   | Proper md format was used | 10% |
 | K8s answers   | k8s answers in his/her own words | 80% |
 | K8s references   | images or extra resources used for the answers | 10% |
-...
