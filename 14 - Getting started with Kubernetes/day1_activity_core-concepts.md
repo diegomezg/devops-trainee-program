@@ -4,7 +4,7 @@
 ## Core concepts
 
 **Day 1**
-To know general core k8s concepts like:
+Getting started with general core k8s concepts like:
 service, api-server, master and node architectures, pod, deploy, stateful, stateless
 
 ### Instructions
