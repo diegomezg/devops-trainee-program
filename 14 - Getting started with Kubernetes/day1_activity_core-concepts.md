@@ -21,7 +21,7 @@ Create an MD file and document the following points:
 10. Based on your experience....
     1.  How would you like to implement the use of k8s in a real-life project?
     2.  What kind of resources would you use?
-    3.  your implementation would be private or public...explain why
+    3. Would you make your implementation private or public? Explain why
     4.  what flavor is the best option for this?
     5.  what other tools do you need to achieve your imaplementation? 
 ...
