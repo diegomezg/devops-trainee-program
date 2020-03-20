@@ -2,7 +2,7 @@
 ## Lab 2 , Lets make my own chart
 
 ### Instructions
-- using the same server and data, create and release a chart to install ghost blog on your k8s cluster, this can be done either by using mysql, or internal sqlite database, either way is acceptable
+- Using the same server and data, create and release a chart to install ghost blog on your k8s cluster, this can be done either by using mysql, or internal sqlite database, either way, is acceptable
 
 
 
