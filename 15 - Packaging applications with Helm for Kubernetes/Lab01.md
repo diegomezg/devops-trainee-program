@@ -2,7 +2,7 @@
 ## Lab 1 , Lets install K8s, Helm and my very first chart
 
 ### Instructions
-- by any means of infrastructure (VMs, AWS, GCP, DigitalOcean), you will create a kubernetes clusters, then, using helm, you will deploy an [nginx controller](https://github.com/helm/charts/tree/master/stable/nginx-ingress), as an extra task, you will deploy cert-manager
+- By any means of infrastructure (VMs, AWS, GCP, DigitalOcean), you will create a kubernetes clusters, then, using helm, you will deploy an [nginx controller](https://github.com/helm/charts/tree/master/stable/nginx-ingress), as an extra task, you will deploy cert-manager
 
 
 
