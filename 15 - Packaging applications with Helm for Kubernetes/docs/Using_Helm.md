@@ -312,7 +312,6 @@ When it is time to uninstall or delete a release from the cluster, use
 the `helm delete` command:
 
 ```
-
 $ helm delete happy-panda
 ```
 
@@ -320,7 +319,6 @@ This will remove the release from the cluster. You can see all of your
 currently deployed releases with the `helm list` command:
 
 ```
-
 $ helm list
 NAME           	VERSION	UPDATED                        	STATUS         	CHART
 inky-cat       	1      	Wed Sep 28 12:59:46 2016       	DEPLOYED       	alpine-0.1.0
@@ -335,7 +333,6 @@ list --all` shows all of the releases (deleted and currently deployed,
 as well as releases that failed):
 
 ```
-
 ⇒  helm list --all
 NAME           	VERSION	UPDATED                        	STATUS         	CHART
 happy-panda   	2      	Wed Sep 28 12:47:54 2016       	DELETED        	mariadb-0.3.0
@@ -360,7 +357,6 @@ several repository tools under the `helm repo` command.
 You can see which repositories are configured using `helm repo list`:
 
 ```
-
 $ helm repo list
 NAME           	URL
 stable         	https://kubernetes-charts.storage.googleapis.com
@@ -371,7 +367,6 @@ mumoshu        	https://mumoshu.github.io/charts
 And new repositories can be added with `helm repo add`:
 
 ```
-
 $ helm repo add dev https://example.com/dev-charts
 ```
 
@@ -385,7 +380,6 @@ charts. But you can get started quickly by using the `helm create`
 command:
 
 ```
-
 $ helm create deis-workflow
 Creating deis-workflow
 ```
@@ -400,7 +394,6 @@ When it's time to package the chart up for distribution, you can run the
 `helm package` command:
 
 ```
-
 $ helm package deis-workflow
 deis-workflow-0.1.0.tgz
 ```
@@ -408,7 +401,6 @@ deis-workflow-0.1.0.tgz
 And that chart can now easily be installed by `helm install`:
 
 ```
-
 $ helm install ./deis-workflow-0.1.0.tgz
 ...
 ```
