@@ -8,7 +8,7 @@
 
 ### Expected deliverables
 - The task will be completed when you can demonstrate that the application is reachable via web browser and a video (webm video preferred) showing the chart releases, is sent to galileo.martinez@digitalonus.com and uploaded to your local repo as a merge request.
-- a brief description of the procedure should be included, but no specific requirements for this doc are made
+- A brief description of the procedure should be included, but no specific requirements for this doc are made
 
 
 
