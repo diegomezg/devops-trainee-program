@@ -7,7 +7,7 @@ The goal of the course is for trainees to get a grasp of the helm tool, how it w
 - Explain what helm is      
 - Describe what helm does and its main advantages/disadvantages     
 - Explain what a chart is    
-- deploy a release from repo     
+- Deploy a release from repo     
 - Describe each part and understand the communication between each component
 - create a chart and deploy a release of it
 - Understand how helm can help them have a cleaner more manageable k8s cluster
