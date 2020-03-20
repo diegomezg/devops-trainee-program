@@ -1,7 +1,7 @@
 # Packaging applications with HELM for K8s
 
 ## Goals
-The goal of the course is for trainees to understand helm is, how it works, and how it can helm them achieve faster, reliable deployments for know and new applications   
+The goal of the course is for trainees to get a grasp of the helm tool, how it works, and how it can help them achieve faster, reliable deployments for known and new applications   
 
 ## Objectives
 - Explain what helm is      
