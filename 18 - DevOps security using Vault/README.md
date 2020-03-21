@@ -52,7 +52,7 @@ The main goal of this course is to the allow the trainee to DEPLOY and operate v
 - Terraform provider. 
 
 ## Course activities
-1. Vault Fundamentals (Secret Engines, Authe Methods, Policies)
+1. Vault Fundamentals (Secret Engines, Authentication Methods, Policies)
 1. Deploying Vault
 1. Operating Vault
 1. Advanced Vault (Applied concepts)
@@ -65,4 +65,4 @@ Bernardo Garza    | @Oscar Hernández | oscar.hernandez@digitalonus.com |
 Aram Rascon     | @aram | aram.rascon@digitalonus.com |
 Rigel Reyes     | @Rigel Reyes | rigel.reyes@digitalonus.com |
 Monserrat Sedeno    | @Monse Sedeno    | monserrat.sedeno@digitalonus.com
-Francisco Rodriguez | @Francisco Rodriguez |   francisco.rodriguez@digitalonus.com
+Francisco Rodriguez | @xfrarod |   francisco.rodriguez@digitalonus.com
