@@ -16,9 +16,3 @@
 | Prometheus metrics | Prometheus is able to send and receive metrics | 40% |
 | Functionality | Prometheus and Grafana are available via web browser | %60 |
 
-Punctuality evaluation:
-- 40% if delivered the same day the class was taken (March 24th)
-- 30% if delivered the next day (March 25th)
-- 20% if delivered on March 26th
-- 10% if delivered before the end of the week (Saturday 28th, 11:59pm. Mexico Central time)
-- Failing grade if not delivered within the week
