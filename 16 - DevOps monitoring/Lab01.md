@@ -13,7 +13,7 @@
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
-| Punctuality | (See punctuality details below) | %40 |
+| Prometheus metrics | Prometheus is able to send and receive metrics | 40% |
 | Functionality | Prometheus and Grafana are available via web browser | %60 |
 
 Punctuality evaluation:
