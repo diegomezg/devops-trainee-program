@@ -6,7 +6,7 @@ The goal of this course is to show the importance of tracking the behavior of ap
 ## Objectives
 - Discuss monitoring concepts
 - Implement infrastructure monitoring metrics using Prometheus
-- Application Monitoring
+- Implement application monitoring metrics using Prometheus
 - Managing Alerts
 - Create Dashboards
 
