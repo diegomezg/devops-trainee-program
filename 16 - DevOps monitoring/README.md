@@ -4,7 +4,7 @@
 The goal of this course is to show the importance of tracking the behavior of applications and infrastructure where these are running, as well as see the types of monitoring tools and how these are used.
 
 ## Objectives
-- Learn about Monitoring Basics
+- Discuss monitoring concepts
 - What is Infrastructure Monitoring
 - Application Monitoring
 - Managing Alerts
