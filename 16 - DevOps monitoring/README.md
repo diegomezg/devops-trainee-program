@@ -28,7 +28,7 @@ There are a lot of monitoring tools in the market that can help to have the adeq
     - Splunk: This is one of the most powerful tools in the market, it is an On-premise solution, it can track the log events of almost all IOT, having in real time the infrastructure metrics of almost all the hardware as well as software.
     - DataDog: This is a Cloud solution that can monitor On-Premise and Cloud environments as well, getting metrics from Databases, infrastructure and logs.
 
-- OpenSource:
+- Open source:
     - Prometheus: This Monitoring tool has become one of the favorites of the DevOps area, this due to its capability to track metris from different environments like On-premise, Cloud, virtual machines, containers and more.
     - Zabbix: This monitoring tool has been available since more than 20 years, but it has been till few years ago when popularity has grown exponentialy thanks to its flexibilty on tracking almost any kind of metrics that can be from Infrastructe or Apps.
 
