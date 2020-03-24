@@ -34,7 +34,7 @@ There are a lot of monitoring tools in the market that can help to have the adeq
 
 ## Learning materials
 
-For this course we will do a practice with a Monitoring Tool that is opensource and also one of the first options in the DevOps world, this is "Prometheus".
+For this course we will do a practice with an opensource Monitoring Tool that's also one of the first options in the DevOps world, this is "Prometheus".
 The idea of this practice is to install Prometheus and Grafana and see which metrics it catch and read from itself.
 
 | Course | Materials |
