@@ -1,5 +1,5 @@
 # DevOps Monitoring
-# Install Prometheus and Grafana
+## Install Prometheus and Grafana
 
 ### Instructions
 - After checking the Installing documentation of Prometheus and the tutorial step by step, you must be able to do your own installation using the privided links as a guide.
