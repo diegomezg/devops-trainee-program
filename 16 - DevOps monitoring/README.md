@@ -15,7 +15,7 @@ The goal of this course is to show the importance of tracking the behavior of ap
 - [What is monitoring?](docs/What-is-monitoring.md)
 - [What is infrastructure monitoring?](docs/Infrastructure-monitoring.md)
 - [What is Application Monitoring?](Application-monitoring.md)
-- [Managing Alerts](docs/Managing-alerts)
+- [Managing Alerts](docs/Managing-alerts.md)
 - [Visualization]()
 
 ## Popular monitoring tools for Infrastructure Monitoring
