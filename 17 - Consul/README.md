@@ -1,5 +1,4 @@
-# {{ Consul }}
-
+# Consul
 ## Goals
 In this course, you'll learn how to use Consul to build scalable and reliable infrastructure.
 
