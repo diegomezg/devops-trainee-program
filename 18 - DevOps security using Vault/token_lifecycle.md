@@ -2,7 +2,7 @@
 ## Token lifecycle
 
 ### Instructions
-- This activity consist on understanding vault tokebs
+This activity consists of understanding vault tokens
 - Read documentation about tokens (https://www.vaultproject.io/docs/concepts/tokens/)
 - Complete excercise : https://www.katacoda.com/hashicorp/scenarios/vault-tokens
 
