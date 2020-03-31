@@ -1,7 +1,7 @@
 # Vault
 
 ## Goals
-The main goal of this course is to the allow the trainee to DEPLOY and operate vault, understanding the fundamental concepts and internals.
+The main goal of this course is to the allow the trainee to deploy and operate vault, understanding the fundamental concepts and internals.
 
 ## Objectives
 - Understand the basic usage and Architecture of Hashicorp Vault.
@@ -32,37 +32,35 @@ The main goal of this course is to the allow the trainee to DEPLOY and operate v
 1.    Terraform vault provider
 
 ## Learning materials
-- Vault slides
+- [Tao of HashiCorp](https://www.hashicorp.com/tao-of-hashicorp)
 - [Learn Hashicorp](https://learn.hashicorp.com/vault)
 - [Katakoda Scenarios](https://www.katacoda.com/?q=hashicorp%20vault&hPP=12&idx=scenarios&p=0&is_v=1)
-- [Vault Documentation](https://www.vaultproject.io/docs/) 
+- [Vault Documentation](https://www.vaultproject.io/docs/)
 - [Vault basics](https://play.instruqt.com/hashicorp/tracks/vault-basics)
-- Install vault using docker or vagrant. (I can provide code to deploy it locally) Init and unseal manually.
-- [Token lifecycle](https://www.katacoda.com/hashicorp/scenarios/vault-tokens) 
+- [Token lifecycle](https://www.katacoda.com/hashicorp/scenarios/vault-tokens)
 - [Secret Engines](https://learn.hashicorp.com/vault/getting-started/secrets-engines)
 - [Static Secrets](https://www.katacoda.com/hashicorp/scenarios/vault-static-secrets)
 - [Vault policies Scenarios](https://www.katacoda.com/hashicorp/scenarios/vault-policies)
 - [Working with vault Polices](https://learn.hashicorp.com/vault/getting-started/policies)
-- Vault Roles
 - [Vault Authentication Scenarios](https://www.katacoda.com/hashicorp/scenarios/vault-auth)
 - [Vault AppRole](https://www.katacoda.com/hashicorp/scenarios/vault-approle)
 - [Vault Auth Methods](https://learn.hashicorp.com/vault/getting-started/authentication)
 - [Credential rotation](https://learn.hashicorp.com/vault/secrets-management/db-root-rotation). Download dbvizualizer to test credendtial rotation.
 - [Vault entities and groups](https://www.katacoda.com/hashicorp/scenarios/vault-identity)
-- Terraform provider. 
+- Terraform provider.
 
 ## Course activities
-1. Vault Fundamentals (Secret Engines, Authentication Methods, Policies)
-1. Deploying Vault
-1. Operating Vault
-1. Advanced Vault (Applied concepts)
-1. Terraform Vault Provider
+1. Install vault with docker
+1. Secret engines
+1. Policies
+1. Authentication methods
+1. Token lifecycle
+1. Vault operation (seal/unseal)
+1. Vault entities
+1. Terraform provider
 
 ## Collaborators
 Name     |   Slack  | Email |
 ---------|----------|----------|
-Bernardo Garza    | @Oscar Hernández | oscar.hernandez@digitalonus.com |
-Aram Rascon     | @aram | aram.rascon@digitalonus.com |
+Bernardo Garza    | @bernardo.garza | bernardo.garza@digitalonus.com |
 Rigel Reyes     | @Rigel Reyes | rigel.reyes@digitalonus.com |
-Monserrat Sedeno    | @Monse Sedeno    | monserrat.sedeno@digitalonus.com
-Francisco Rodriguez | @xfrarod |   francisco.rodriguez@digitalonus.com
