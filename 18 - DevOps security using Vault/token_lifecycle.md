@@ -1,4 +1,4 @@
-# HASHICORP VAULT
+# DevOps security using Vault
 # Token lifecycle
 
 ### Instructions
