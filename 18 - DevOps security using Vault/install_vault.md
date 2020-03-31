@@ -1,4 +1,4 @@
-# {{ COURSE_NAME }}
+# DevOps security using Vault 
 # Install Vault
 
 ### Instructions
