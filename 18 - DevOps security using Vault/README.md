@@ -50,11 +50,11 @@ The main goal of this course is to the allow the trainee to deploy and operate v
 - Terraform provider.
 
 ## Course activities
-1. Install vault with docker
+1. [Install vault with docker](install_vault.md)
+1. [Token lifecycle](token_lifecycle.md)
 1. Secret engines
 1. Policies
 1. Authentication methods
-1. Token lifecycle
 1. Vault operation (seal/unseal)
 1. Vault entities
 1. Terraform provider
