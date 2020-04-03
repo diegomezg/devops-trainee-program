@@ -45,7 +45,7 @@ The main goal of this course is to the allow the trainee to deploy and operate v
 - [Vault Authentication Scenarios](https://www.katacoda.com/hashicorp/scenarios/vault-auth)
 - [Vault AppRole](https://www.katacoda.com/hashicorp/scenarios/vault-approle)
 - [Vault Auth Methods](https://learn.hashicorp.com/vault/getting-started/authentication)
-- [Credential rotation](https://learn.hashicorp.com/vault/secrets-management/db-root-rotation). Download dbvizualizer to test credential rotation.
+- [Database Root Credential Rotation](https://learn.hashicorp.com/vault/secrets-management/db-root-rotation)
 - [Vault entities and groups](https://www.katacoda.com/hashicorp/scenarios/vault-identity)
 - [Terraform Vault Provider](https://www.terraform.io/docs/providers/vault/index.html)
 
