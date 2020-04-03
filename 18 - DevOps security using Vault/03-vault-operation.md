@@ -1,9 +1,3 @@
-3) Vault Operator Exercises
-1. Bring up a vault development server
-2. Init vault with CLI and Rest API commands
-3. Seal vault CLI and RestAPI
-4. Unseal vault CLI and RestAPI
-
 # Vault
 ## Vault Operation
 
@@ -29,6 +23,7 @@ Create a dummy repo or md file explaining and showing the follow:
 | ----------- |-------------| -------:|
 | Dev Server | Create a vault practice instance using the cli in a local environment | 20% |
 | Initialize Vault | Understand the shamir algotihm, threshold, key-shares and vault state | 30% |
-| Seal Vault | Seal vault according the situations via CLI and API| 25% |
-| Unseal Vault | Unseal Vault with key-shares via CLI and API | 25% |
+| Seal Vault | Seal vault according the situations via CLI and API| 15% |
+| Unseal Vault | Unseal Vault with key-shares via CLI and API | 15% |
+| Instruqt Exercise | Solve Vault Operation Exercises for CLI, API and Production Server | 20% |
 
