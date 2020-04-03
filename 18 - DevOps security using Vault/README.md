@@ -17,17 +17,17 @@ The main goal of this course is to the allow the trainee to deploy and operate v
 1.    Init and unseal vault.
 1.    Vault Tokens life cycle
 1.    Vault Secret engines
-  1.    PKI
-  1.    K/V
-  1.    MSSQL
+    1.    PKI
+    1.    K/V
+    1.    MSSQL
 1.    Vault Policies
 1.    Vault roles
 1.    Vault Auth methods
-  1.    AppRole
-  1.    GitHub
-  1.    Username and password
+    1.    AppRole
+    1.    GitHub
+    1.    Username and password
 1.    Vault credential rotation
-  1.    MSSQL
+    1.    MSSQL
 1.    Vault entities and groups
 1.    Terraform vault provider
 
@@ -47,7 +47,7 @@ The main goal of this course is to the allow the trainee to deploy and operate v
 - [Vault Auth Methods](https://learn.hashicorp.com/vault/getting-started/authentication)
 - [Credential rotation](https://learn.hashicorp.com/vault/secrets-management/db-root-rotation). Download dbvizualizer to test credential rotation.
 - [Vault entities and groups](https://www.katacoda.com/hashicorp/scenarios/vault-identity)
-- Terraform provider.
+- [Terraform Vault Provider](https://www.terraform.io/docs/providers/vault/index.html)
 
 ## Course activities
 1. [Install vault with docker](01-install-vault.md)
