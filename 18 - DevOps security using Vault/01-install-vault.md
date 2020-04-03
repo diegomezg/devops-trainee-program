@@ -1,4 +1,4 @@
-# DevOps security using Vault 
+# DevOps security using Vault
 # Install Vault
 
 ### Instructions
@@ -15,5 +15,7 @@ This activity consists of installing vault using docker, the docker-compose file
 
 ### Evaluation
 
-- Vault Installation and initialization = 100%
-
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| Vault installation | Vault has been installed | 50% |
+| Vault initialization | Vault has been initialized | 50% |

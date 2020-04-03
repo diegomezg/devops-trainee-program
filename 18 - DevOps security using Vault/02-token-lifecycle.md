@@ -4,7 +4,7 @@
 ### Instructions
 This activity consists of understanding vault tokens
 - Read documentation about tokens (https://www.vaultproject.io/docs/concepts/tokens/)
-- Complete excercise : https://www.katacoda.com/hashicorp/scenarios/vault-tokens
+- Complete exercise : https://www.katacoda.com/hashicorp/scenarios/vault-tokens
 
 
 ### Expected deliverables
@@ -13,3 +13,7 @@ This activity consists of understanding vault tokens
 ### Evaluation
 
 - Create a document with the commands that were used and the results with screenshots = 100%
+
+| Metric name | Description | % Value |
+| ----------- |-------------| -------:|
+| Documentation | Document with screenshot was provided | 100% |

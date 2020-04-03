@@ -1,11 +1,11 @@
-# Vault
+# DevOps security using Vault
 ## Authentication Methods
 
 ### Objective
 Be able to identify different types of authentication methods, and list human-oriented and machine-oriented.
 
 ### Instructions
-Create a dummy repo or md file explaining and showing the follow:
+Create a dummy repo or MD file explaining and showing the follow:
 1. Enable user-pass authentication method
 1. Create 3 users with username and password
 1. Login to vault with userpass method.
@@ -22,10 +22,10 @@ Create a dummy repo or md file explaining and showing the follow:
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
-| Enable Userpass | Enable the userpass auth method | 20% |
+| Enable userpass | Enable the userpass auth method | 20% |
 | Add Users | Add 3 users to the userpass auth method | 10% |
-| Login Userpass | Login to vault using one of the users created in the userpass auth method | 10% |
+| Login userpass | Login to vault using one of the users created in the userpass auth method | 10% |
 | Enable Github | Enable github auth method | 20% |
-| Add Github User | Add you own user accoint| 10% |
+| Add Github User | Add you own user account| 10% |
 | Login Github | Login to vault using you github user and a valid organization | 10% |
 | Katacoda Exercise | Solve the AppRole Exercise from Katacoda | 20% |
