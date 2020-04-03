@@ -34,30 +34,30 @@ The main goal of this course is to the allow the trainee to deploy and operate v
 ## Learning materials
 - [Tao of HashiCorp](https://www.hashicorp.com/tao-of-hashicorp)
 - [Learn Hashicorp](https://learn.hashicorp.com/vault)
-- [Katakoda Scenarios](https://www.katacoda.com/?q=hashicorp%20vault&hPP=12&idx=scenarios&p=0&is_v=1)
-- [Vault Documentation](https://www.vaultproject.io/docs/)
+- [Katakoda scenarios](https://www.katacoda.com/?q=hashicorp%20vault&hPP=12&idx=scenarios&p=0&is_v=1)
+- [Vault documentation](https://www.vaultproject.io/docs/)
 - [Vault basics](https://play.instruqt.com/hashicorp/tracks/vault-basics)
 - [Token lifecycle](https://www.katacoda.com/hashicorp/scenarios/vault-tokens)
-- [Secret Engines](https://learn.hashicorp.com/vault/getting-started/secrets-engines)
-- [Static Secrets](https://www.katacoda.com/hashicorp/scenarios/vault-static-secrets)
-- [Vault policies Scenarios](https://www.katacoda.com/hashicorp/scenarios/vault-policies)
-- [Working with vault Polices](https://learn.hashicorp.com/vault/getting-started/policies)
-- [Vault Authentication Scenarios](https://www.katacoda.com/hashicorp/scenarios/vault-auth)
+- [Secret engines](https://learn.hashicorp.com/vault/getting-started/secrets-engines)
+- [Static secrets](https://www.katacoda.com/hashicorp/scenarios/vault-static-secrets)
+- [Vault policies scenarios](https://www.katacoda.com/hashicorp/scenarios/vault-policies)
+- [Working with vault polices](https://learn.hashicorp.com/vault/getting-started/policies)
+- [Vault authentication scenarios](https://www.katacoda.com/hashicorp/scenarios/vault-auth)
 - [Vault AppRole](https://www.katacoda.com/hashicorp/scenarios/vault-approle)
-- [Vault Auth Methods](https://learn.hashicorp.com/vault/getting-started/authentication)
-- [Credential rotation](https://learn.hashicorp.com/vault/secrets-management/db-root-rotation). Download dbvizualizer to test credendtial rotation.
+- [Vault auth methods](https://learn.hashicorp.com/vault/getting-started/authentication)
+- [Database root credential rotation](https://learn.hashicorp.com/vault/secrets-management/db-root-rotation)
 - [Vault entities and groups](https://www.katacoda.com/hashicorp/scenarios/vault-identity)
-- Terraform provider.
+- [Terraform vault provider](https://www.terraform.io/docs/providers/vault/index.html)
 
 ## Course activities
-1. [Install vault with docker](install_vault.md)
-1. [Token lifecycle](token_lifecycle.md)
-1. Secret engines
-1. Policies
-1. Authentication methods
-1. Vault operation (seal/unseal)
-1. Vault entities
-1. Terraform provider
+1. [Install vault with docker](01-install-vault.md)
+1. [Token lifecycle](02-token-lifecycle.md)
+1. [Vault operation](03-vault-operation.md)
+1. [Secret engines](04-secret-engines.md)
+1. [Authentication methods](05-auth-methods-md)
+1. [Policies](06-policies.md)
+1. [Vault entities](07-vault-entities.md)
+1. [Terraform Vault provider](08-terraform-vault-provider.md)
 
 ## Collaborators
 Name     |   Slack  | Email |
