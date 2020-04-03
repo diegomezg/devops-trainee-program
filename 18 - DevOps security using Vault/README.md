@@ -17,17 +17,17 @@ The main goal of this course is to the allow the trainee to deploy and operate v
 1.    Init and unseal vault.
 1.    Vault Tokens life cycle
 1.    Vault Secret engines
-    1.    PKI
-    1.    K/V
-    1.    MSSQL
+  1.    PKI
+  1.    K/V
+  1.    MSSQL
 1.    Vault Policies
 1.    Vault roles
 1.    Vault Auth methods
-    1.    AppRole
-    1.    GitHub
-    1.    Username and password
+  1.    AppRole
+  1.    GitHub
+  1.    Username and password
 1.    Vault credential rotation
-    1.    MSSQL
+  1.    MSSQL
 1.    Vault entities and groups
 1.    Terraform vault provider
 
@@ -45,19 +45,19 @@ The main goal of this course is to the allow the trainee to deploy and operate v
 - [Vault Authentication Scenarios](https://www.katacoda.com/hashicorp/scenarios/vault-auth)
 - [Vault AppRole](https://www.katacoda.com/hashicorp/scenarios/vault-approle)
 - [Vault Auth Methods](https://learn.hashicorp.com/vault/getting-started/authentication)
-- [Credential rotation](https://learn.hashicorp.com/vault/secrets-management/db-root-rotation). Download dbvizualizer to test credendtial rotation.
+- [Credential rotation](https://learn.hashicorp.com/vault/secrets-management/db-root-rotation). Download dbvizualizer to test credential rotation.
 - [Vault entities and groups](https://www.katacoda.com/hashicorp/scenarios/vault-identity)
 - Terraform provider.
 
 ## Course activities
-1. [Install vault with docker](install_vault.md)
-1. [Token lifecycle](token_lifecycle.md)
-1. Secret engines
-1. Policies
-1. Authentication methods
-1. Vault operation (seal/unseal)
-1. Vault entities
-1. Terraform provider
+1. [Install vault with docker](01-install-vault.md)
+1. [Token Lifecycle](02-token-lifecycle.md)
+1. [Vault Operation](03-vault-operation.md)
+1. [Secret Engines](04-secret-engines.md)
+1. [Authentication Methods](05-auth-methods-md)
+1. [Policies](06-policies.md)
+1. [Vault entities](07-vault-entities.md)
+1. [Terraform Vault Provider](08-terraform-vault-provider.md)
 
 ## Collaborators
 Name     |   Slack  | Email |
