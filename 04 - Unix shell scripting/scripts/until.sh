@@ -6,4 +6,3 @@ do
         read n
         echo -e "\nYour variabel is ..$n\n\n"
 done
-
