@@ -2,71 +2,69 @@
 
 ##### Course duration – 3 days
 
-## Goals of the course 
+## Goals of the course
 
 This course focuses on laying down the basics and presenting the trainee built-in resources for automation of Linux systems using Bash as a scripting language.
 
-## Learning objectives 
+## Learning objectives
 
 - Develop skills to write effective and complex shell scripts to automate repetitive tasks and manage multiple processes.
 - Employ the different Bash arithmetic operators, loops, conditional, variables and most used techniques.
 
-## Contents 
+## Contents
 
+- Introduction to bash
+- Bash files
+	- ``.bash_profile``
+	- ``.bashrc``
+	- ``.bash_history``
+	- ``.bash_logout``
+- Shebang interpreter and shell types.
+- Variables in scripts
+	- Definition
+	- Global
+	- Local
+	- Environment variables
+	- Default values
+	- Implicit
+	- Explicit
+- Command substitution and expansion
+- Comments
+- Exist status
+- Special Characters
+	- Quotes
+	- Escapes
+- Read
+- Arithmetic operators
+- Arrays
+- Passing variables to scripts
+- ``if``, ``then``, and ``else`` statements
+- Loops (``for``, ``while`` and ``until`` statements)
+- ``case`` statement
+- Execution operators
+- Read from files
+- ``IFS`` special shell variable
+- Traps and signals
+- Debug
+- Functions and their structures
+- Functions with parameters
+- Nested functions
+- Function return and exit
 
-- Introduction to bash 
-- Bash files  
-	- bash_profile  
-	- .bashrc  
-	- .bash_history  
-	- .bash_logout 
-- Shebang interpreter and shell types. 
-- Variables in scripts 
-	- Definition 
-	- Global 
-	- Local 
-	- Environment variables 
-	- Default values 
-	- Implicit 
-	- Explicit 
-- Command substitution and expansion 
-- Comments 
-- Exist status 
-- Special Characters 
-	- Quotes 
-	- Escapes 
-- Read 
-- Arithmetic operators 
-- Arrays 
-- Passing variables to scripts 
-- IF, THEN, ELSE 
-- Loops (for and while) 
-- Case 
-- Execution operators 
-- Read from files 
-- IFS 
-- Traps and signals 
-- Debug 
-- Functions and their structures 
-- Functions with parameters 
-- Nested functions 
-- Function return and exit 
+## Learning materials
 
-
-
-## Learning materials 
 - [Shell slides](https://digitalonus01.sharepoint.com/:p:/r/_layouts/15/Doc.aspx?sourcedoc=%7B26C91B61-B5D6-402D-A55B-73D06F571974%7D&file=DoU%20University%20-%20Shell%20Scripting%20Course.pptx&action=edit&mobileredirect=true)
 - [Shell scripting guide](./shell-scripting.md)
 - Safe ways to do things in bash
  https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md#how-to-begin-a-bash-script
-- Variables and substitution 
- http://www.compciv.org/topics/bash/variables-and-substitution/ 
-- Shell expansion 
- http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_04.html 
-- Parameter expansion and default values 
- https://www.debuntu.org/how-to-bash-parameter-expansion-and-default-values/ 
-- System Administrator’s Guide to Bash Scripting 
- https://linuxacademy.com/cp/modules/view/id/72 
+- Variables and substitution
+ http://www.compciv.org/topics/bash/variables-and-substitution/
+- Shell expansion
+ http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_03_04.html
+- Parameter expansion and default values
+ https://www.debuntu.org/how-to-bash-parameter-expansion-and-default-values/
+- System Administrator’s Guide to Bash Scripting
+ https://linuxacademy.com/cp/modules/view/id/72
 - Exit status
  https://shapeshed.com/unix-exit-codes/
  http://tldp.org/LDP/abs/html/exitcodes.html
@@ -107,13 +105,12 @@ This course focuses on laying down the basics and presenting the trainee built-i
 - [06 checking files](./06-checking-files.md)
 - [07 checking users](./07-activity-checking-users.md)
 - [08 remote install](./08-remote-install.md)
-## Collaborators 
 
-| Collaborator  | Slack  |
-| ------------ | ------------ |
-| Ricardo Magana  |@ricardoM   |
-| Jesus Gomez  |@JesusG   |
+## Collaborators
 
-
-
-
+| Collaborator     | Slack handle |
+| ---------------- | ------------ |
+| Ricardo Magaña   | @ricardoM    |
+| Jesus Gomez      | @JesusG      |
+| Dulce Cruz       | @Dulce Cruz  |
+| Martín Rodríguez | @martin.rdz  |

@@ -10,7 +10,7 @@ functions()
 
 	read filename
 
-	echo -e "Hello \t\t\t\t\t World" >> ${filename}.txt 
+	echo -e "Hello \t\t\t\t\t World" >> ${filename}.txt
 
 	clear
 

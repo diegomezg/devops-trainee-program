@@ -14,7 +14,7 @@ En 1977 Bourne shell fue desarrollado por Stephen Bourne. Este fue escrito con e
 Bourne shell introdujo conceptos más avanzados al shell como estructuras if,while,case, command substitution  and signal handling.
 
 
-### Bash 
+### Bash
 
 Es un interpretador de linea de comandos, es la shell de linux(un lenguaje de comando) que fue creado por la comunidad libre de GNU, el cual fue el reemplazo del Bourne shell
 
@@ -96,9 +96,9 @@ func ()
   echo                   # Uses the 'local' builtin.
   echo "\"loc_var\" in function = $loc_var"
   global_var=999         # Not declared as local.
-                         # Therefore, defaults to global. 
+                         # Therefore, defaults to global.
   echo "\"global_var\" in function = $global_var"
-}  
+}
 ```
 
 
@@ -254,14 +254,14 @@ Algunos caracteres son evauluados por bash para no tener un significado literal.
 
 - quoting
 `echo this is a               test`
-- doble quotes            
+- doble quotes
 `echo "this is a               test"`
-- single quotes          
-`echo vamos a crear 5 archivos automaticamente text_file_{1..5}.txt`             
+- single quotes
+`echo vamos a crear 5 archivos automaticamente text_file_{1..5}.txt`
 `echo 'vamos a crear 5 archivos automaticamente text_file_{1..5}.txt'`
-escaping characters     
-`echo "mi usuario es $USER"`                                                     
-`echo "mi usuario es \$USER"`                                                              
+escaping characters
+`echo "mi usuario es $USER"`
+`echo "mi usuario es \$USER"`
 `echo -e "Damos un espacio de tabulador \t y un 5 saltos de linea \n\n\n\n\n"`
 
 ## READ
@@ -280,23 +280,23 @@ Son las operaciones aritmeticas(matematicas) que realiza bash, y estas son algun
 ### expr
 ```
 #!/bin/bash
- 
+
 # Works as string
 expr '10 + 30'
- 
+
 # Works as string
 expr 10+30
- 
+
 #Perform the addition
 expr 10 + 30
- 
+
 #Find out the remainder value
 expr 30 % 9
- 
+
 #Using expr with backtick
 myVal1=`expr 30 / 10`
 echo $myVal1
- 
+
 #Using expr within command substitute
 myVal2=$( expr 30 - 10 )
 echo $myVal2
@@ -305,24 +305,24 @@ echo $myVal2
 ### let
 ```
 #!/bin/bash
- 
+
 # Multiplying 9 by 8
 let val1=9*3
 echo $val1
- 
+
 # Dividing 8 by 3
 let "val2 = 8 / 3"
 echo $val2
- 
+
 # Subtracting 3 from 9
 let val3=9-3
 echo $val3
- 
+
 # Applying increment
 let val4=7
 let val4++
 echo $val4
- 
+
 # Using argument value in arithmetic operation
 let "val5=50+$1"
 echo $val5
@@ -333,22 +333,22 @@ echo $val5
 
 ```
 #!/bin/bash
- 
+
 # Calculate the mathematical expression
 val1=$((10*5+15))
 echo $val1
- 
+
 # Using post or pre increment/decrement operator
 ((val1++))
 echo $val1
 val2=41
 ((--val2))
 echo $val2
- 
+
 # Using shorthand operator
 (( val2 += 60 ))
 echo $val2
- 
+
 # Dividing 40 by 6
 (( val3 = 40/6 ))
 echo $val3
@@ -357,13 +357,13 @@ echo $val3
 ### bc
 ```
 #!/bin/bash
- 
+
 # Dividing 55 by 3 with bc only
 echo "55/3" | bc
- 
+
 # Dividing 55 by 3 with bc and -l option
 echo "55/3" | bc -l
- 
+
 # Dividing 55 by 3 with bc and scale value
 echo "scale=2; 55/3" | bc
 ```
@@ -400,13 +400,13 @@ declare -a Unix=('Debian' 'Red hat' 'Red hat' 'Suse' 'Fedora')
 echo ${Unix[@]}
 
 #Length
-${#arrayname[@]} 
+${#arrayname[@]}
 
 #Number of character in first element
 ${#Unix}
 
 #Number of characters in third element
-${#Unix[3]} 
+${#Unix[3]}
 
 #Extraction by offset
 Unix=('Debian' 'Red hat' 'Ubuntu' 'Suse' 'Fedora' 'UTS' 'OpenLinux');
@@ -420,7 +420,7 @@ echo ${Unix[2]:0:4}
 Unix=('Debian' 'Red hat' 'Ubuntu' 'Suse' 'Fedora' 'UTS' 'OpenLinux');
 echo ${Unix[@]/Ubuntu/SCO Unix}
 
-#Add an element 
+#Add an element
 Unix=('Debian' 'Red hat' 'Ubuntu' 'Suse' 'Fedora' 'UTS' 'OpenLinux');
 Unix=("${Unix[@]}" "AIX" "HP-UX")
 
@@ -465,7 +465,7 @@ echo "Read file content!"
 
 
 ## Passing variables to scripts
-Son valores ya definidos que nosotros le pasamos a los scripts, cuando nosotros pasamos argumentos a nuestro script una posición de parámetro es asignada el cual van desde el $1 al $9. Si hay mas de 9 argumentos entonces el décimo en adelante no pueden ser asignados como $10 etc... 
+Son valores ya definidos que nosotros le pasamos a los scripts, cuando nosotros pasamos argumentos a nuestro script una posición de parámetro es asignada el cual van desde el $1 al $9. Si hay mas de 9 argumentos entonces el décimo en adelante no pueden ser asignados como $10 etc...
 ```
 #!/bin/bash
 VARIABLE1="hello"
@@ -483,7 +483,7 @@ echo -e "These come from parameters:" $@
 **ELSE**      Es la decision contraria a IF, que ejecutaria un bloque de codigo basado en la condicion del IF, el cual diria si no se cumplio el IF, entonces ejecuta esto otro.
 
 ```
-if [ condition ] 
+if [ condition ]
 then
 	block_of_statements
 fi
@@ -509,7 +509,7 @@ fi
 ```
 ### if then else
 ```
-if [ condition ] 
+if [ condition ]
 then
 	block_of_statements
 else
@@ -527,13 +527,13 @@ fi
 ```
 ### if then elif else
 ```
-if [ condition 1 ]  
-then
-	block_of_statements 
-elif [ condition 2 ] 
+if [ condition 1 ]
 then
 	block_of_statements
-else 
+elif [ condition 2 ]
+then
+	block_of_statements
+else
 	block_of_statements
 fi
 ```
@@ -554,17 +554,17 @@ fi
 ```
 #!/bin/bash
 
-if [ $# -ne 1 ] 
+if [ $# -ne 1 ]
 then
 	echo "You need to enter the year."
-	exit 1 
+	exit 1
 fi
 
 year=$1
 
 if [ $[$year % 400] -eq "0" ]
 then
-	echo "$year is a leap year!" 
+	echo "$year is a leap year!"
 elif [ $[$year % 4] -eq 0 ]
 then
 	if [ $[$year % 100] -ne 0 ]
@@ -590,13 +590,13 @@ fi
 Es una declaracion en bash que nos permite que el codigo sea repetidamente ejecutado
 Estas son instrucciones que se repiten en algun tipo de acciones durante cierto numero de iteraciones, ese numero de iteraciones esta definido por algun tipo de condicion, y siempre que la condicion sea verdadera el bucle continuara iterando atraves de la lista de comandos y los ejecutara.
 
-### for 
+### for
 Hace todas las repeticiones declaradas en el for y hasta que se completen se termina el for
 ```
  for dou in {1..3}; do echo "Number $dou ..."; done
 ```
 
-### while 
+### while
 Mientras la sentencia que esta en el while se cumpla, se seguira ejecutando el codigo del while
 ```
 #!/bin/bash
@@ -604,7 +604,7 @@ Mientras la sentencia que esta en el while se cumpla, se seguira ejecutando el c
         TIME_INTERVAL=2
         echo -e "\nThis script will run for $LIMIT_TIME Seconds... \n"
         echo -e "Press CTRL+C to exit before the time limit\n"
-        while [ "$SECONDS" -le "$LIMIT_TIME" ] 
+        while [ "$SECONDS" -le "$LIMIT_TIME" ]
                 do
                         echo "This Script $0 has been running for $SECONDS seconds."
                         sleep $TIME_INTERVAL
@@ -668,12 +668,12 @@ Esta declaracion de bash puede ser usada para probar valores como enteros y cade
                 *                   )   echo "Invalid input" ;;
                 esac
 ```
- 
+
 ## Execution Operators
 Son los operadores que nos sirven para ser usados en expresiones de las condicionales, la forma mas basica de la estructura del if que prueba una condicion y entonces ejecuta un bloque de codigo si es que la condicion se cumplio
 Existen 3 tipos de operadores, los cuales son:
 
-**Operadores de archivo**   son un poderoso set de operadores logicos dentro de bash. 
+**Operadores de archivo**   son un poderoso set de operadores logicos dentro de bash.
 Operator	Description
 
 | Operators  |Description   |
@@ -690,7 +690,7 @@ Operator	Description
 |-p filename|True if the file exists and is a named pipe (FIFO)|
 |-r filename|True if the file exists and is readable, i.e., has its read bit set|
 |-s filename|True if the file exists and has a size greater than zero; a file that exists but that has a size of zero will return false|
-|-t fd|True if the file descriptor fd is open and refers to a terminal|   	
+|-t fd|True if the file descriptor fd is open and refers to a terminal|
 |-u filename|True if the file exists and its set-user-id bit is set|
 |-w filename|True if the file exists and is writable|
 |-x filename|True if the file exists and is executable|
@@ -820,7 +820,7 @@ echo " Variable \$a multiplied by 2 on the line $line"   # imprimes el texto en 
 
 ```
 #!/bin/bash
- 
+
 variable="Hello!!!"
 
 echo $variable
@@ -854,14 +854,14 @@ echo $variable
 - `-x` imprime todos los comandos in un script a stderr antes de ejecutarlos - se uso principal es para el debug
 ```
 #!/bin/bash
- 
+
 set -x
 
 number_of_files=5
 
 if [[ ! $number_of_files =~ ^[0-9]+$ ]]; then
 	echo -e "\n number of files is not set\n"
-else 	
+else
 	for i in $( seq 1 $number_of_files );do touch text_number_$i.txt;done
 fi
 
@@ -887,7 +887,7 @@ output:
 
 ## Functions and their structures
 
-###  
+###
 
 ```
 function_name () {
@@ -934,12 +934,12 @@ f1 ()
     echo "Function \"f2\", inside \"f1\"."
   }
 
-}  
+}
 
 f2  #  Gives an error message.
     #  Even a preceding "declare -f f2" wouldn't help.
 
-echo    
+echo
 
 f1  #  Does nothing, since calling "f1" does not automatically call "f2".
 f2  #  Now, it's all right to call "f2",
@@ -983,7 +983,7 @@ echo The file $1 has $num_lines lines in it.
     - Evaluate an arithmetic expression
     - Attempt to remove a file that does not exist in the current directory
     - Evaluate another arithmetic expression
-    - Immediately after each command, echo the exit status of that command to the terminal using the appropriate variable to show success and failure exit codes. 
+    - Immediately after each command, echo the exit status of that command to the terminal using the appropriate variable to show success and failure exit codes.
 
 - Write a script intended to iterate through an array called SERVERLIST containing at least four values (server names). Display all four values to the terminal when run.
 
@@ -992,6 +992,3 @@ echo The file $1 has $num_lines lines in it.
     - Write a script to read that file and prompt the user for the delimiter value. Use that delimiter along with the IFS variable and read those delimited values into three appropriately named variables. Finally, display them with labels, one each per line.
 
 - Write a script that will prompt the user to enter a number between 1 and 3. Capture that number in a variable and then test that variable. Be sure to display the variable and it's value as appropriate within an if/then/else statement where the final statement will display if they did not enter a number between 1 and 3 telling them they failed to follow instructions. Redirect errors from each of the tests to /dev/null (to prevent script errors from showing if text is entered for example).
-
-
-

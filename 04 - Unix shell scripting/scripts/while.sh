@@ -7,5 +7,5 @@ while [ "$i" -le "$MAX" ]
 do
 	var=$RANDOM
         echo -e "\n$var\n"
-        let "i += 1" 
+        let "i += 1"
 done
