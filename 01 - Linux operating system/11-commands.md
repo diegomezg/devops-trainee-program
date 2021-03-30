@@ -17,4 +17,4 @@ ls, cp, mv, rm, du, df, pwd, mkdir, cat, more, less, cd, touch, clear, tail, hea
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
-| Commands   | At least 15 of them were explained with an example | %100 |
+| Commands   | Print your name at the begining of the script, print the current folder, create a folder "example", create 2 files with different names, move first file to the new folder, insert the current date to the second file, print the second file content, change your folder to the new one, print the current folder, show what is there, and finally remove everything that you create before. | %100 |
