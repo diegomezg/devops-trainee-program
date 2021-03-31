@@ -33,9 +33,10 @@ It is pretty important that the trainee is not only able to do some 5 common git
 
 
 ## Course activities
-- [01 - MD format](./01-md-format.md)
-- [02 - Git story and worflow.](./02-git-story-and-worflow.md)
-- [03 - Git commands and issues.](./03-git-commands-and-issues.md)
+- [01 - MD format.](./01-md-format.md)
+- [02 - About git.](./02-about-git.md)
+- [03 - Git commands.](./03-git-commands.md)
+- [04 - Git stash and conflicts.](./04-git-stash-and-conflicts.md)
 
 
 ## Collaborators
