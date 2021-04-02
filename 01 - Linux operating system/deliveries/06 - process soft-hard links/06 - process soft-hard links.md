@@ -66,8 +66,19 @@ systemctl status 'daemon name'
 
 * Tell us what is a soft link and a hard link, also explain the difference between these two  
 >Soft-link: Refer to a symbolic path indicating the abstract location of another file or directory  
+* can cross the file system  
+* allows you to link between directories
+* has different inode number and file permissions than original file
+* permissions will not be updated
+* has only the path of the original file, not the contents
 
 >Hard-link: Is a mirror copy of the original file (ONLY FILES)  
+* can't cross the file system boundaries (i.e. A hardlink can only work on the same filesystem)
+* can't link directories
+* has the same inode number and permissions of original file
+* permissions will be updated if we change the permissions of source file
+* has the actual contents of original file, so that you still can view the contents, even if the original file moved or removed  
+
 
 >The difference between these two is that soft links are a type of direct access & hard link are the exactly route on the system of a file
 * Create and delete a soft link and document the process  
