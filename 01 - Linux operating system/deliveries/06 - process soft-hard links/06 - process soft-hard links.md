@@ -43,7 +43,14 @@ kill -9 'PROCESS ID'
 The signal sent to process / process group is to exit with no blocking.  
 
 * List all the daemons running and document the steps  
+```
+ps aux --sort cputime
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         2  0.0  0.0      0     0 ?        S    11:10   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   11:10   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   11:10   0:00 [rcu_par_gp]
 
+```
 * How can you check if a daemon is enabled?  
 >Check daemon's status  
 ```
@@ -58,9 +65,46 @@ systemctl status 'daemon name'
 >4. Optimize operative system  
 
 * Tell us what is a soft link and a hard link, also explain the difference between these two  
+>Soft-link: Refer to a symbolic path indicating the abstract location of another file or directory  
 
+>Hard-link: Is a mirror copy of the original file (ONLY FILES)  
+
+>The difference between these two is that soft links are a type of direct access & hard link are the exactly route on the system of a file
 * Create and delete a soft link and document the process  
-
+1. Create a new file
+```
+touch index.js
+```
+2. Create the file to insert link
+```
+touch linkIndex
+```
+3. Create the link  
+```
+ls -s index.js linkJS 
+```
+4. List files
+```
+ls -lha | grep link
+-rw-r--r--  1 root root    0 Apr  2 11:58 linkJS
+```
+5. Remove link
+```
+unlink linkJS
+```
 * Create and delete a hard link and document the process  
-
+1. Link routes
+```
+ln /path/to/source /path/to/link
+```
+2. Show link
+```
+ls -lha | grep link
+```
+3. Remove link  
+```
+rm source
+```
+***With hard links there is no distinction between "the original file" and "the link to the file": You just have two names for the same file, and deleting just one of the names will not delete the other.
 * What is an inode?  
+>A file that contains contains the metadata of a file, this metadata includes information such as size, permissions, creation date, owner and more
