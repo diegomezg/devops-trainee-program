@@ -84,5 +84,21 @@ systemctl restart ssh
 ## Create a group to enhance ssh security using the AllowGroups flag and enable ssh access for a new user called letmein, document the process  
 
 ## Create an entry banner that displays the text "Welcome stranger to DigitalOnUs" everytime a user ssh into your VM
+1. Edit config file
+```
+nano /etc/ssh/sshd_config
+```
+2. Add Banner directory
+```
+Banner /etc/ssh/banner
+```
+3. Creater banner file & message
+```
+nano /etc/ssh/banner
+```
+4. Restart ssh service
+```
+systemctl restart ssh
+```
 ## Config your own ssh using $USER/.ssh/config and make sure when you type server01 it connects to your coworker machine
 ## Document how to create an ssh key and how to copy the key into another server
