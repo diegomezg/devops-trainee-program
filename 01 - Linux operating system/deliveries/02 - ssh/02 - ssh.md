@@ -81,9 +81,21 @@ PermitRootLogin no
 ```
 systemctl restart ssh
 ```
-## Create a group to enhance ssh security using the AllowGroups flag and enable ssh access for a new user called letmein, document the process  
-
-## Create an entry banner that displays the text "Welcome stranger to DigitalOnUs" everytime a user ssh into your VM
+Create a group to enhance ssh security using the AllowGroups flag and enable ssh access for a new user called letmein, document the process  
+1. Create user group and user letmein
+```
+adduser
+addgroup
+```
+2. Edit config file
+```
+AllowGroups usersDOU
+```
+2. Restart ssh service
+```
+systemctl restart ssh
+```
+Create an entry banner that displays the text "Welcome stranger to DigitalOnUs" everytime a user ssh into your VM
 1. Edit config file
 ```
 nano /etc/ssh/sshd_config
@@ -100,5 +112,36 @@ nano /etc/ssh/banner
 ```
 systemctl restart ssh
 ```
-## Config your own ssh using $USER/.ssh/config and make sure when you type server01 it connects to your coworker machine
+## Config your own ssh using $USER/.ssh/config and make sure when you type server01 it connects to your coworker machine  
+1. Create & edit config file
+```
+nano ~/.ssh/config
+```
+```
+Host debianVM
+        HostName 192.168.1.138
+        Port 22
+        ForwardX11 no
+```
+2. Add Banner directory
+```
+ssh debianVM
+```
+3. Login
+```
+root@192.168.1.138's password:
+```
 ## Document how to create an ssh key and how to copy the key into another server
+1. Generate SSH key
+```
+ssh-keygen -t rsa -b 4096 -C "diego.gomez@digitalonus.com"
+Generating public/private rsa key pair.
+Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
+Enter passphrase (empty for no passphrase): [Type a passphrase]
+Enter same passphrase again: [Type passphrase again]
+```
+2. Copies the public key of your default identity (use -i identity_file for other identities) to the remote host
+```
+ssh-copy-id user@hostname.com
+```
+>The default identity is your "standard" ssh key. It consists of two files (public and private key) in your ~/.ssh directory, normally named identity, id_rsa, id_dsa, id_ecdsa or id_ed25519 (and the same with .pub), depending on the type of key. If you did not create more than one ssh key, you do not have to worry about specifying the identity, ssh-copy-id will just pick it automatically
