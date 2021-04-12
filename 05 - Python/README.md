@@ -25,6 +25,8 @@ At the end of the course the trainee will be able to read/write python modules o
 - [Python Package Index (PIP)](https://pypi.org/)
 - [Python official tutorial](https://docs.python.org/3/tutorial/index.html)
 - [For the book lovers take a look to Fluent Python](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008)
+- [Real Python Tutorials](https://realpython.com/)
+- [The Hitchhiker’s Guide to Python!](https://docs.python-guide.org/)
 - [Built-in types](https://www.youtube.com/watch?v=lyDLAutA88s&t=472s)
 
 ## Course activities
@@ -44,4 +46,5 @@ Name     |   Slack  | EMAIL |
  Alan Acosta    | @alanacosta | alan.acosta@digitalonus.com |
  Antonio Cabrera    | @thetonymaster | antonio.cabrera@digitalonus.com |
  Angel Figueroa    | @leofigy | angel.figueroa@digitalonus.com |
+ Dorian Velazquez    | @dorianvelazquez | dorian.velazquez@digitalonus.com |
 
