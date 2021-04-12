@@ -39,4 +39,4 @@ pip3 install -r requirements.txt
 ```  
 
 What would be the difference of doing this vs using a docker container, and what could be the limitations?
-Python environment works on your local machine, docker instead its running in and isolated space so you should change constantly so those environment variables or configurations
+Python environment works on your local machine and has easily tools to manage python packages, docker instead its running in and isolated space so you should change constantly so those environment variables or configurations and you can manage full OS tools or software
