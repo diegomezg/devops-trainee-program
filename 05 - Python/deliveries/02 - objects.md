@@ -91,6 +91,12 @@ No more options
 ![alt text](no_option.jpg)  
 
 ## Dictionaries  
-### dictionary.
-### dictionary.
-### dictionary.
+### dict.get(self,hey,default=None)  
+Return the value for key if key is in the dictionary, else default  
+![alt text](here.jpg)  
+### dict.items()
+D.items() -> a set-like object providing a view on D's items  
+![alt text](items.jpg)  
+### dict.pop()
+Remove specified key and return the corresponding value  
+![alt text](pop.jpg)  
