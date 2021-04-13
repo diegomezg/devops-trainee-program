@@ -45,3 +45,8 @@ kun=map(kun,lista)
 print(list(kun))
 
 #Write an explanation of why reduce is not totally recommended in python 3
+'''
+Removed reduce() from python 3.x.
+Use functools.reduce() if you really need it;
+however, 99 percent of the time an explicit for loop is more readable
+'''
