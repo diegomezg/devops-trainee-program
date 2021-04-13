@@ -15,10 +15,24 @@ namesTwo = tuple(i.get('name') for i in dicts)
 print(namesTwo)
 
 # Transform that list of comprenhention into a generator and consume it.
-def generate():
+
+
+def tupleKeyName():
     newNames = ()
     for i in dicts:
-        newNames=newNames+(i.get('name'),)
+        newNames = newNames+(i.get('name'),)
     yield newNames
-namesThree = generate()
+
+#Call the generator
+namesThree = tupleKeyName()
 print(namesThree.__next__())
+
+# Based on this object
+lista = ['elefante', 'rana', 'jirafa', 'perro', 'puerco', 'tigre']
+#Create a function using lambda and filter that creates a list
+#with all the strings that contains at least one "a"
+filterList= list(filter(lambda word:('a' in word),lista))
+print(filterList)
+
+#Create a function using map that creates a new list with the same string 
+#but adding " kun" at the end.
