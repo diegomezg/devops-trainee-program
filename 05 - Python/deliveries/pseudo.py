@@ -36,3 +36,12 @@ print(filterList)
 
 #Create a function using map that creates a new list with the same string 
 #but adding " kun" at the end.
+#animal is the element of the iterable object
+def kun(animal):
+    #cat kun to string element
+    return animal+' kun'
+# define a return object called kun, called kun function and send iterable object
+kun=map(kun,lista)
+print(list(kun))
+
+#Write an explanation of why reduce is not totally recommended in python 3
