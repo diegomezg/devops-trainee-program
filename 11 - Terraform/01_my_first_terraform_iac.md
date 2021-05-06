@@ -6,17 +6,18 @@
 
 Trainees will be given the tasks to build basic infrastructure in their preferred provider.
 1. Create repository for the project
-2. Choose a provider and design a simple infrastructure
+2. Declare the provider and design a simple infrastructure
 3. Create your file structure
-4. Add the resources, proviers and all objects that will compose the project
+4. Add the resources, providers and all objects that will compose the project
 5. Validate, Plan, Apply, Destroy
-5. ??
 6. Profit
 
 
 ##### Expected deliverables 
 
-Terraform Infrastructure code for either docker, kubernetes or aws providers.
+Simple terraform Infrastructure code for docker (recommended because of simplicity) or any other. 
+
+Think of this as your hello world.
 
 
 ##### Measuring instrument 
