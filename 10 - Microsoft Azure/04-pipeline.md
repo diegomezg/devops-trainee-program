@@ -34,7 +34,7 @@ First create the infrastructure/framework needed to use pipelines connected with
 and edit one of the steps, or add a new step to make it look something like this. It may have more things, but you will need the entries **azureSubscription** for sure
 
         steps:
-        - task: babyPipeline
+        - task: AzureCLI@2
         displayName: 'Create a simple resource in azure'
         inputs:
             azureSubscription: REPLACE THIS WITH YOUR SERVICE CONNECTION FROM STEP 5
