@@ -27,8 +27,8 @@ Trainees will design a simple pipeline using Gitlab feature gitlab-ci. They will
 
 | Metric  |  Description | Value  |
 | ------------ | ------------ | ------------ |
-|  Architectural adherence | Files organization and objects  | 40%  |
-|   Functional| Clear idea and working  |  40% |
-|  Integration with other tools | working integration between gitlab, terraform and aws   |  20% |
+| Pipeline | Pipeline file was made | 40%  |
+|   Terraform| Simple configuration was written  |  40% |
+|  Result | Document proof that the pipeline worked and created resources   |  20% |
 
 
