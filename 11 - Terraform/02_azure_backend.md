@@ -59,7 +59,12 @@ provider "azurerm" {
 
 #terraform.tf
 terraform {
-  required_version = ">= 0.13.5"
+  backend "azurerm" {
+    resource_group_name  = ""
+    storage_account_name = ""
+    container_name       = ""
+    key                  = "terraform.tfstate"
+  }
   required_providers {
     azurerm = "~> 2.0"
   }
