@@ -23,7 +23,7 @@ Trainees will create and tie AWS resources: VPC, Security Group and Instance. Yo
 * Configure the resources using the following diagram: https://gitlab.com/dou-university/planning-committee/grad-program/-/blob/terraform/11%20-%20Terraform/04_basic_aws_infra_diagram.pdf
 
 
-# Modules
+# Modules (Optional)
 * After you created the resources and confirmed that everything is working fine in AWS, we are going to proceed moduling these resources. Proceed with the following:
 
 3. Inside your main project directory, create `modules` directory. Inside `modules`, create directories:
@@ -60,7 +60,6 @@ You have to be able to reach the server in port 22 using the public IP assigned 
 |  Internet gateway | aws_internet_gateway was implemented   |  8% |
 |  Route table association | aws_route_table_association was implemented   |  8% |
 |  Route | aws_route was implemented   |  8% |
-|  Resources | All of the resources are located in their respective folder   |  8% |
-|  Functional | Provided scripts is fully functional   |  20% |
+|  Functional | Provided scripts is fully functional   |  28% |
 
 

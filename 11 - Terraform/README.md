@@ -50,12 +50,12 @@ Trainees will be led to make complete infrastructure as code on different provid
 
 Terraform: Up and Running 
 ISBN: 978-1-491-97708-8 
-
-Terraform Docs 
+- [terraform_slides](https://digitalonus01.sharepoint.com/:p:/r/_layouts/15/Doc.aspx?sourcedoc=%7B0ECC5406-4E1C-47C0-8E2C-CE120AB944A7%7D&file=DOU%20University%20-%20Terraform.pptx&action=edit&mobileredirect=true)
+- Terraform Docs 
 https://www.terraform.io/docs/index.html 
-Terraform Recommended Practices 
+- Terraform Recommended Practices 
 https://www.terraform.io/docs/cloud/guides/recommended-practices/index.html
-Terraform Backends
+- Terraform Backends
 https://www.terraform.io/docs/backends/index.html
 
 ##### Course activities 
