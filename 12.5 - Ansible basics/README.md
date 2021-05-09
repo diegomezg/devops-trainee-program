@@ -32,6 +32,8 @@ This course focuses on the main basics for one of the most  popular tools for se
 - [All in one](./activities/04-All-in-one.md)
 - [Using templates](./activities/05-Templates.md)
 
+## Extra info (2021 Updated)
+- [Enabling our Working setup](./activities/Working-setup.md)
 
 ## Collaborators
 | Name | Slack | EMAIL |
