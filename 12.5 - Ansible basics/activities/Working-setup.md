@@ -11,7 +11,7 @@ brew tap hashicorp/tap
 brew install hashicorp/tap/vagrant
 ```
 
-...In other side, if you have no money (nah just kidding! :P ) if you are the most smart guy using linux (hopefully not Ubuntu...) then download the following binary and put it under **/usr/bin/vagrant** or just follow the instructions below:
+Alternatively, if you're using Linux, then download the following binary and put it under **/usr/bin/vagrant** or just follow the instructions below:
 
 ```sh
 ## RedHat derivated (CentOS - Redhat)
