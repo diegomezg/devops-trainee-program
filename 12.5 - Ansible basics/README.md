@@ -37,3 +37,4 @@ This course focuses on the main basics for one of the most  popular tools for se
 | Name | Slack | EMAIL |
 | ---- | ----- | ----: |
 | Miguel Angel H. | @Miguel Hernandez | miguel.hernandez@digitalonus.com |
+| Daniela Becerra | @Daniela Becerra| daniela.becerra@digitalonus.com|
