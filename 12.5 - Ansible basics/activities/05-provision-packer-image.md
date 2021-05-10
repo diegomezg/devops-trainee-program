@@ -69,6 +69,12 @@ It is recommended that you stay with the same version of CentOS you used in the 
 
 3. Export the env variables you wrote on the packer template that correspond to an existing service principal. 
 
+
+        export ARM_SUBSCRIPTION_ID=XXX
+        export ARM_TENANT_ID=XXX
+        export ARM_CLIENT_ID=XXX
+        export ARM_CLIENT_SECRET=XXX  
+
 If you don't already have an existing service principal, create one. (Refer to the Terraform module instructions for more info)
 
 > az ad sp create-for-rbac -n "replace this" --role Contributor --scopes /subscriptions/$SUB_ID/resourceGroups/$RG_NAME
@@ -91,18 +97,10 @@ You can make a copy of the playbook used in activity 4, and replace some values 
         roles:
             - apache
 
-Make sure the name matches the variable in the template called `playbook_file`
+Make sure the playbook name matches the variable in the template called `playbook_file`
+ 
 
-6. Export the variables of the service principal to your environment.
-
-        ```
-        export ARM_SUBSCRIPTION_ID=XXX
-        export ARM_TENANT_ID=XXX
-        export ARM_CLIENT_ID=XXX
-        export ARM_CLIENT_SECRET=XXX
-        ```
-
-7. Build the packer image
+6. Build the packer image
 
 > packer build packer_template.json
 
@@ -118,11 +116,11 @@ It takes about 6 minutes.
 ![](img/packer_output4.png)
 The output confirms the name of the image created: APACHE-demo (this can be different for you)
 
-8. Go to the portal and make sure the image is in your resource group now.
+7. Go to the portal and make sure the image is in your resource group now.
 
 ![](img/image_in_portal.png)
 
-9. Create a new VM using the portal.
+8. Create a new VM using the portal.
 
 When choosing the image, click on `see all images`
  
@@ -132,24 +130,24 @@ Under "My items", choose `my images`. You should see the image you created there
 
 ![](img/create_vm_image2.png)
 
-10. Setup the VM
+9. Setup the VM
 
 Make sure to:
 
 - Assign the VM a public IP
 - Open ports 22 & 80
 
-11. Capture the IP assigned
+10. Capture the IP assigned
 
 In my case it was 40.124.48.232
 
 ![](img/VM_with_public_ip.png)
 
-12. Navigate to your homepage
+11. Navigate to your homepage
 
 ![](img/homepage_azure.png)
 
-13. Extra points (50 extra points in any activity of the Azure, Terraform or Ansible modules)
+12. Extra points (50 extra points in any activity of the Azure, Terraform or Ansible modules)
 
 Setup the VM & IP with terraform.
 
