@@ -4,7 +4,7 @@ Vagrant is a nice and powerful tool to test environments using your favorite hyp
 
 # Download Vagrant
 
-Vagrant can be installed in two ways. If you are the lucky guy with mac, then something like this should do the trick:
+Vagrant can be installed in two ways, if you're on a mac then something like this should do the trick:
 
 ```sh
 brew tap hashicorp/tap
