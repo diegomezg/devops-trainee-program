@@ -55,3 +55,7 @@ Monserrat Sedeno    | @Monse | monserrat.sedeno@digitalonus.com |
 Juan Francisco Gil | @Francisco Gil | francisco.gil@digitalonus.com |
 Daniela Becerra| @Daniela Becerra| daniela.becerra@digitalonus.com|
 Monserrat Guzmán | @Monse Guzman | monserrat.guzman@digitalonus.com |
+
+
+## Solutions
+If you are an instructor, request access to the private solutions repo [here](https://gitlab.com/danib1/douniversity-solutions)
