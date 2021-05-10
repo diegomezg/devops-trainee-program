@@ -65,7 +65,7 @@ end
 ```sh
 vagrant up
 ```
-This run will take some time to complete. Vagrant will download the base images and build a new kernel with your custom plugins. Be patient.
+This run will take some time to complete; Vagrant will download the base images and build a new kernel with your custom plugins. Be patient.
 
 Once that everything is in place, lets check the status:
 ```sh
