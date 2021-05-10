@@ -27,7 +27,7 @@ dpkg -i /tmp/vagrant_2.2.16_x86_64.deb
 
 Ansible is nice. For this course, let's create our own lab using only a few commads.
 
- - Install the virtualbox plugin to share and do nice stuff: (If you haven't installed virtualbox at this point.. is a good idea to start before with it)
+ - Install the VirtualBox plugin to share
 ```sh
 vagrant plugin install vagrant-vbguest 
 ```
