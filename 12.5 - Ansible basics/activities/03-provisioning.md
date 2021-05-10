@@ -16,10 +16,13 @@ the system configuration also must be done using loops.
 
 ### Expected deliverables
 - Playbook file with all of the necessary code.
+- Inventory file
+- Screenshot of the output of the command
 
 ### Evaluation
 
 | Metric name | Description | % Value |
 | ----------- |-------------| -------:|
 | Loops.   | Trainee was able to install the packages using loops | %20 |
-| Use of correct modules.   | Modules used are the correct for the system installed in the VM's | %80 |
+| Documentation | The markdown file includes the corresponding screenshots | 10% |
+| Use of correct modules.   | Modules used are the correct for the system installed in the VM's | 70% |
