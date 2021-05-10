@@ -29,8 +29,8 @@ This course focuses on the main basics for one of the most  popular tools for se
 - [Working with loops](./activities/01-working-with-loops.md)
 - [Working with Adhoc commands](./activities/02-adhoc.md)
 - [Provisioning your nodes!](./activities/03-provisioning.md)
-- [All in one](./activities/04-All-in-one.md)
-- [Using templates](./activities/05-Templates.md)
+- [Create a Role](./activities/04-roles.md)
+- [Provision a Packer image with Ansible](./activities/05-provision-packer-image.md)
 
 ## Extra info (2021 Updated)
 - [Enabling our Working setup](./activities/Working-setup.md)
@@ -39,3 +39,4 @@ This course focuses on the main basics for one of the most  popular tools for se
 | Name | Slack | EMAIL |
 | ---- | ----- | ----: |
 | Miguel Angel H. | @Miguel Hernandez | miguel.hernandez@digitalonus.com |
+| Daniela Becerra | @Daniela Becerra| daniela.becerra@digitalonus.com|
