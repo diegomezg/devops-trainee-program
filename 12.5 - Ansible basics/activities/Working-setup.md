@@ -1,6 +1,6 @@
 # What is Vagrant
 
-Vagrant is a nice and powerful tool to test environments using your favorite hypervisor. (virtualbox, vmware, docker, etc)
+Vagrant is a nice and powerful tool to test environments using your favorite hypervisor. (VirtualBox, VMWare, Docker, etc).
 
 # Download Vagrant
 
