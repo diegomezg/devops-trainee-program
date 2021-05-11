@@ -1,0 +1,27 @@
+# # Starter pipeline
+# # Start with a minimal pipeline that you can customize to build and deploy your code.
+# # Add steps that build, run tests, deploy, and more:
+# # https://aka.ms/yaml
+
+trigger:
+- main
+stages:
+  - stage: Create
+    displayName: Create resources
+    jobs:
+    - job: Build
+      displayName: Build
+      pool:
+        vmImageName: ubuntu-latest
+
+
+      steps:
+      - task: AzureCLI@2
+        inputs:
+          displayName: Create a simple resource in azure
+          azureSubscription: dg-azure-resource
+          scriptType: bash
+          scriptLocation: inlineScript 
+          inlineScript: az storage account create --resource-group diego-gomez --name unnombresuperunico123 --sku Standard_LRS 
+          addSpnToEnvironment: true
+          useGlobalConfig: true
