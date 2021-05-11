@@ -32,6 +32,8 @@ This course focuses on the main basics for one of the most  popular tools for se
 - [Create a Role](./activities/04-roles.md)
 - [Provision a Packer image with Ansible](./activities/05-provision-packer-image.md)
 
+## Extra info (2021 Updated)
+- [Enabling our Working setup](./activities/Working-setup.md)
 
 ## Collaborators
 | Name | Slack | EMAIL |
