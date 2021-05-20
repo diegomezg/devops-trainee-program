@@ -7,7 +7,7 @@
 
 
 ### Expected deliverables
-- The task is completed when you can demonstrate that the application is reachable via web browser and a video (webm video preferred) the application is running using the nginx controller,  is sent to galileo.martinez@digitalonus.com and uploaded to your local repo as a merge request. 
+- The task is completed when you can demonstrate that the application is reachable via web browser and a video (webm video preferred) the application is running using the nginx controller, is sent to jorge.hernandez@digitalonus.com and uploaded to your local repo as a merge request. 
 - A brief description of the procedure should be included, as well as a copy of the chart, but no specific requirements for this doc are made
 
 
